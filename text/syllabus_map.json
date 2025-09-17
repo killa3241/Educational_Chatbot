@@ -1,0 +1,951 @@
+[
+  {
+    "chapter_number": 1,
+    "chapter_name": "Chemical Reactions and Equations",
+    "topics": [
+      {
+        "topic_name": "CHEMICAL EQUATIONS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Writing a Chemical Equation",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Balanced Chemical Equations",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "TYPES OF CHEMICAL REACTIONS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Combination Reaction",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Decomposition Reaction",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Displacement Reaction",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Double Displacement Reaction",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Oxidation and Reduction",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "HAVE YOU OBSERVED THE EFFECTS OF OXIDATION REACTIONS IN EVERYDAAAY LIFE?",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Corrosion",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Rancidity",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_number": 2,
+    "chapter_name": "Acids, Bases and Salts",
+    "topics": [
+      {
+        "topic_name": "UNDERSTANDING THE CHEMICAL PROPERTIES OF ACIDS AND BASES",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Acids and Bases in the Laboratory",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "How do Acids and Bases React with Metals?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "How do Metal Carbonates and Metal Hydrogencarbonates React with Acids?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "How do Acids and Bases React with each other?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Reaction of Metallic Oxides with Acids",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Reaction of a Non-metallic Oxide with Base",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "WHAT DO ALL ACIDS AND ALL BASES HAVE IN COMMON?",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "What Happens to an Acid or a Base in a Water Solution?",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "HOW STRONG ARE ACID OR BASE SOLUTIONS?",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Importance of pH in Everyday Life",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "MORE ABOUT SALTS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Family of Salts",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "pH of Salts",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Chemicals from Common Salt",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Are the Crystals of Salts really Dry?",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_number": 3,
+    "chapter_name": "Metals and Non-metals",
+    "topics": [
+      {
+        "topic_name": "PHYSICAL PROPERTIES",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Metals",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Non-metals",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "CHEMICAL PROPERTIES OF METALS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "What happens when Metals are burnt in Air?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "What happens when Metals react with Water?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "What happens when Metals react with Acids?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "How do Metals react with Solutions of other Metal Salts?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "The Reactivity Series",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "HOW DO METALS AND NON-METALS REACT?",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Properties of Ionic Compounds",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "OCCURRENCE OF METALS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Extraction of Metals",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Enrichment of Ores",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Extracting Metals Low in the Activity Series",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Extracting Metals in the Middle of the Activity Series",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Extracting Metals towards the Top of the Activity Series",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Refining of Metals",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "CORROSION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Prevention of Corrosion",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_number": 4,
+    "chapter_name": "Carbon and its Compounds",
+    "topics": [
+      {
+        "topic_name": "BONDING IN CARBON – THE COVALENT BOND",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "VERSATILE NATURE OF CARBON",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Saturated and Unsaturated Carbon Compounds",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Chains, Branches and Rings",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Will you be my Friend?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Homologous Series",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Nomenclature of Carbon Compounds",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "CHEMICAL PROPERTIES OF CARBON COMPOUNDS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Combustion",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Oxidation",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Addition Reaction",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Substitution Reaction",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "SOME IMPORTANT CARBON COMPOUNDS – ETHANOL AND ETHANOIC ACID",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Properties of Ethanol",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Properties of Ethanoic Acid",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "SOAPS AND DETERGENTS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      }
+    ]
+  },
+  {
+    "chapter_number": 5,
+    "chapter_name": "Life Processes",
+    "topics": [
+      {
+        "topic_name": "WHAT ARE LIFE PROCESSES?",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "NUTRITION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Autotrophic Nutrition",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Heterotrophic Nutrition",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "How do Organisms obtain their Nutrition?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Nutrition in Human Beings",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "RESPIRATION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "TRANSPORTATION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Transportation in Human Beings",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Transportation in Plants",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "EXCRETION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Excretion in Human Beings",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Excretion in Plants",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_number": 6,
+    "chapter_name": "Control and Coordination",
+    "topics": [
+      {
+        "topic_name": "ANIMALS – NERVOUS SYSTEM",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "What happens in Reflex Actions?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Human Brain",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "How are these Tissues protected?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "How does the Nervous Tissue cause Action?",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "COORDINATION IN PLANTS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Immediate Response to Stimulus",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Movement Due to Growth",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "HORMONES IN ANIMALS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      }
+    ]
+  },
+  {
+    "chapter_number": 7,
+    "chapter_name": "How do Organisms Reproduce?",
+    "topics": [
+      {
+        "topic_name": "DO ORGANISMS CREATE EXACT COPIES OF THEMSELVES?",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "The Importance of Variation",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "MODES OF REPRODUCTION USED BY SINGLE ORGANISMS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Fission",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Fragmentation",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Regeneration",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Budding",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Vegetative Propagation",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Spore Formation",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "SEXUAL REPRODUCTION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Why the Sexual Mode of Reproduction?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Sexual Reproduction in Flowering Plants",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Reproduction in Human Beings",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "(a) Male Reproductive System",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "(b) Female Reproductive System",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "(c) What happens when the Egg is not Fertilised?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "(d) Reproductive Health",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_number": 8,
+    "chapter_name": "Heredity",
+    "topics": [
+      {
+        "topic_name": "ACCUMULATION OF VARIATION DURING REPRODUCTION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "HEREDITY",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Inherited Traits",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Rules for the Inheritance of Traits – Mendel’s Contributions",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "How do these Traits get Expressed?",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Sex Determination",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_number": 9,
+    "chapter_name": "Light – Reflection and Refraction",
+    "topics": [
+      {
+        "topic_name": "REFLECTION OF LIGHT",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "SPHERICAL MIRRORS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Image Formation by Spherical Mirrors",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Representation of Images Formed by Spherical Mirrors Using Ray Diagrams",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Sign Convention for Reflection by Spherical Mirrors",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Mirror Formula and Magnification",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "REFRACTION OF LIGHT",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Refraction through a Rectangular Glass Slab",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "The Refractive Index",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Refraction by Spherical Lenses",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Image Formation by Lenses",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Image Formation in Lenses Using Ray Diagrams",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Sign Convention for Spherical Lenses",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Lens Formula and Magnification",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Power of a Lens",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_number": 10,
+    "chapter_name": "The Human Eye and the Colourful World",
+    "topics": [
+      {
+        "topic_name": "THE HUMAN EYE",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Power of Accommodation",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "DEFECTS OF VISION AND THEIR CORRECTION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "REFRACTION OF LIGHT THROUGH A PRISM",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "DISPERSION OF WHITE LIGHT BY A GLASS PRISM",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "ATMOSPHERIC REFRACTION",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "SCATTERING OF LIGHT",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Tyndall Effect",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Why is the colour of the clear Sky Blue?",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chapter_number": 11,
+    "chapter_name": "Electricity",
+    "topics": [
+      {
+        "topic_name": "ELECTRIC CURRENT AND CIRCUIT",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "ELECTRIC POTENTIAL AND POTENTIAL DIFFERENCE",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "CIRCUIT DIAGRAM",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "OHM’S LAW",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "FACTORS ON WHICH THE RESISTANCE OF A CONDUCTOR DEPENDS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "RESISTANCE OF A SYSTEM OF RESISTORS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Resistors in Series",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Resistors in Parallel",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "HEATING EFFECT OF ELECTRIC CURRENT",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Practical Applications of Heating Effect of Electric Current",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "ELECTRIC POWER",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      }
+    ]
+  },
+  {
+    "chapter_number": 12,
+    "chapter_name": "Magnetic Effects of Electric Current",
+    "topics": [
+      {
+        "topic_name": "MAGNETIC FIELD DUE TO A CURRENT-CARRYING CONDUCTOR",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Magnetic Field due to a Current through a Straight Conductor",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Right-Hand Thumb Rule",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Magnetic Field due to a Current through a Circular Loop",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Magnetic Field due to a Current in a Solenoid",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "FORCE ON A CURRENT-CARRYING CONDUCTOR IN A MAGNETIC FIELD",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      },
+      {
+        "topic_name": "DOMESTIC ELECTRIC CIRCUITS",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": []
+      }
+    ]
+  },
+  {
+    "chapter_number": 13,
+    "chapter_name": "Our Environment",
+    "topics": [
+      {
+        "topic_name": "ECO-SYSTEM - WHAT ARE ITS COMPONENTS?",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Food Chains and Webs",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      },
+      {
+        "topic_name": "HOW DO OUR ACTIVITIES AFFECT THE ENVIRONMENT?",
+        "key_concepts": [],
+        "questions": [],
+        "subtopics": [
+          {
+            "subtopic_name": "Ozone Layer and How it is Getting Depleted",
+            "key_concepts": [],
+            "questions": []
+          },
+          {
+            "subtopic_name": "Managing the Garbage we Produce",
+            "key_concepts": [],
+            "questions": []
+          }
+        ]
+      }
+    ]
+  }
+]
