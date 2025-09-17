@@ -1,0 +1,43 @@
+You are an expert technical editor assigned to process raw text copied from a science textbook PDF. Your task is to convert this text into a single, clean, and structured string that is perfectly formatted for use in a JSON file.
+
+Follow these rules precisely:
+
+1.  **Paragraph Formatting:** Separate distinct paragraphs with a double newline (`\n\n`).
+
+2.  **List Formatting:** If you see a bulleted list (using symbols like ■, •, etc.), convert it into a standardized list. Each item must start with a hyphen and a space (`- `) and end with a single newline (`\n`).
+
+3.  **Chemical Formula and Equation Formatting (LaTeX):** All chemical formulas and equations MUST be converted to LaTeX format, enclosed in single dollar signs (`$...$`).
+    * **Subscripts:** Use an underscore (`_`). Example: `H2O` becomes `$H_2O$`.
+    * **Superscripts (Ions):** Use a caret (`^`). Use curly braces `{}` for multi-character superscripts. Example: `SO4^2-` becomes `$SO_4^{2-}$`.
+    * **Hydrated Salts (dot notation):** Use `\cdot`. Example: `Na2CO3.10H2O` becomes `$Na_2CO_3 \cdot 10H_2O$`.
+    * **Fractions:** Use `\frac{}{}`. Example: `1/2 H2O` becomes `$\frac{1}{2}H_2O$`.
+    * **Reaction Arrows:**
+        * A standard arrow (`→`) becomes `\rightarrow`.
+        * An arrow with text above it (e.g., "Heat") becomes `\xrightarrow{Heat}`.
+        * An arrow with text above ("Sunlight") and below ("Chlorophyll") becomes `\xrightarrow[Chlorophyll]{Sunlight}`.
+
+4.  **Table Formatting (Markdown):** Convert any tables into a clean Markdown format. Use pipes (`|`) to separate columns and a `|---|---|` structure to separate the header row.
+
+5.  **What to Ignore:** If the text describes an "Activity" (e.g., "Take a beaker..."), completely ignore the procedural steps. Only format the explanatory text that follows the activity.
+
+6.  **CRITICAL RULE FOR JSON OUTPUT:** To make the string valid for a JSON file, every single backslash (`\`) in your LaTeX output MUST be escaped by doubling it.
+    * `\rightarrow` MUST become `\\rightarrow`
+    * `\cdot` MUST become `\\cdot`
+    * `\frac` MUST become `\\frac`
+
+**Your Goal:** Produce a single, continuous string with this formatting. Do not add any commentary or explanation. Just provide the final, clean string.
+
+---
+**Example of a Perfect Transformation:**
+
+**Raw Input:**
+> On heating gypsum, it becomes calcium sulphate hemihydrate (CaSO4 . 1/2 H2O). The reaction is:
+> CaSO4.2H2O → CaSO4.1/2H2O + 1 1/2 H2O
+
+**Correct Output:**
+> On heating gypsum, it becomes calcium sulphate hemihydrate ($CaSO_4 \\cdot \\frac{1}{2}H_2O$). The reaction is:\n\n$CaSO_4 \\cdot 2H_2O \\rightarrow CaSO_4 \\cdot \\frac{1}{2}H_2O + 1\\frac{1}{2}H_2O$
+---
+
+Now, process the following text based on these rules:
+
+[Your friend pastes the raw text here]
