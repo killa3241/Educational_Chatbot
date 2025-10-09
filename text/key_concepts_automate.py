@@ -7,14 +7,14 @@ from google.api_core.exceptions import ResourceExhausted
 
 # --- Configuration ---
 try:
-    genai.configure(api_key="")
+    genai.configure(api_key="AIzaSyAtNxpha-7A0LF0FbR0jvVH8IO-IQ4QqUw")
 except KeyError:
     print("Error: GOOGLE_API_KEY environment variable not set.")
     exit()
 
 INPUT_FILENAME = "textual_content.json"
 OUTPUT_FILENAME = "syllabus_map_1.json"
-CHAPTERS_TO_PROCESS = [1, 2, 3, 4, 5, 6]
+CHAPTERS_TO_PROCESS = [4,7,8]
 
 MASTER_PROMPT = """
 You are an expert scientific data processor specializing in CBSE Class 10 Science textbooks. 
