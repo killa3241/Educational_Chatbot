@@ -1,5 +1,5 @@
 [
-  {
+{
     "chapter_number": 1,
     "chapter_name": "Chemical Reactions and Equations",
     "topics": [
@@ -1013,81 +1013,139 @@
           }
         ]
       },
+      [
+  {
+    "topic_name": "CHEMICAL PROPERTIES OF CARBON COMPOUNDS",
+    "key_concepts": [],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
       {
-        "topic_name": "CHEMICAL PROPERTIES OF CARBON COMPOUNDS",
-        "key_concepts": [],
-        "questions": [],
-        "activity_contexts": [],
-        "subtopics": [
-          {
-            "subtopic_name": "Combustion",
-            "key_concepts": [
-              "ERROR: Could not process this text."
-            ],
-            "questions": [],
-            "activity_contexts": []
-          },
-          {
-            "subtopic_name": "Oxidation",
-            "key_concepts": [
-              "ERROR: Could not process this text."
-            ],
-            "questions": [],
-            "activity_contexts": []
-          },
-          {
-            "subtopic_name": "Addition Reaction",
-            "key_concepts": [
-              "ERROR: Could not process this text."
-            ],
-            "questions": [],
-            "activity_contexts": []
-          },
-          {
-            "subtopic_name": "Substitution Reaction",
-            "key_concepts": [
-              "ERROR: Could not process this text."
-            ],
-            "questions": [],
-            "activity_contexts": []
-          }
-        ]
-      },
-      {
-        "topic_name": "SOME IMPORTANT CARBON COMPOUNDS – ETHANOL AND ETHANOIC ACID",
+        "subtopic_name": "Combustion",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "Carbon, in all its allotropic forms, burns in oxygen to give carbon dioxide along with the release of heat and light.",
+          "Most carbon compounds also release a large amount of heat and light on burning.",
+          "$C + O_2 \\rightarrow CO_2 + \\text{heat and light}$",
+          "$CH_4 + O_2 \\rightarrow CO_2 + H_2O + \\text{heat and light}$",
+          "$CH_3CH_2OH + O_2 \\rightarrow CO_2 + H_2O + \\text{heat and light}$",
+          "Saturated hydrocarbons will generally give a clean flame.",
+          "Unsaturated carbon compounds will give a yellow flame with lots of black smoke.",
+          "Limiting the supply of air results in incomplete combustion of even saturated hydrocarbons giving a sooty flame.",
+          "The gas/kerosene stove used at home has inlets for air so that a sufficiently oxygen-rich mixture is burnt to give a clean blue flame.",
+          "Fuels such as coal and petroleum have some amount of nitrogen and sulphur in them.",
+          "Combustion of coal and petroleum results in the formation of oxides of sulphur and nitrogen which are major pollutants in the environment."
         ],
         "questions": [],
-        "activity_contexts": [],
-        "subtopics": [
-          {
-            "subtopic_name": "Properties of Ethanol",
-            "key_concepts": [
-              "ERROR: Could not process this text."
-            ],
-            "questions": [],
-            "activity_contexts": []
-          },
-          {
-            "subtopic_name": "Properties of Ethanoic Acid",
-            "key_concepts": [
-              "ERROR: Could not process this text."
-            ],
-            "questions": [],
-            "activity_contexts": []
-          }
-        ]
+        "activity_contexts": []
       },
       {
-        "topic_name": "SOAPS AND DETERGENTS",
+        "subtopic_name": "Oxidation",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "Carbon compounds can be easily oxidised on combustion.",
+          "Alcohols are converted to carboxylic acids in certain reactions (complete oxidation).",
+          "Substances that are capable of adding oxygen to others are known as oxidising agents.",
+          "Alkaline potassium permanganate or acidified potassium dichromate are oxidising alcohols to acids, hence they are known as oxidising agents."
         ],
         "questions": [],
-        "activity_contexts": [],
-        "subtopics": []
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Addition Reaction",
+        "key_concepts": [
+          "Unsaturated hydrocarbons add hydrogen in the presence of catalysts such as palladium or nickel to give saturated hydrocarbons.",
+          "Catalysts are substances that cause a reaction to occur or proceed at a different rate without the reaction itself being affected.",
+          "The reaction of adding hydrogen to unsaturated hydrocarbons is commonly used in the hydrogenation of vegetable oils using a nickel catalyst.",
+          "Vegetable oils generally have long unsaturated carbon chains.",
+          "Animal fats have saturated carbon chains.",
+          "Oils containing unsaturated fatty acids should be chosen for cooking because animal fats containing saturated fatty acids are said to be harmful for health."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Substitution Reaction",
+        "key_concepts": [
+          "Saturated hydrocarbons are fairly unreactive and are inert in the presence of most reagents.",
+          "In the presence of sunlight, chlorine is added to hydrocarbons in a very fast reaction, replacing the hydrogen atoms one by one.",
+          "A substitution reaction is one where one type of atom or a group of atoms takes the place of another."
+        ],
+        "questions": [],
+        "activity_contexts": []
       }
+    ]
+  },
+  {
+    "topic_name": "SOME IMPORTANT CARBON COMPOUNDS – ETHANOL AND ETHANOIC ACID",
+    "key_concepts": [
+      "Ethanol and ethanoic acid are two commercially important carbon compounds."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Properties of Ethanol",
+        "key_concepts": [
+          "Ethanol is a liquid at room temperature.",
+          "Ethanol is commonly called alcohol and is the active ingredient of all alcoholic drinks.",
+          "Ethanol is a good solvent and is used in medicines such as tincture iodine, cough syrups, and many tonics.",
+          "Ethanol is soluble in water in all proportions.",
+          "Intake of even a small quantity of pure ethanol (called absolute alcohol) can be lethal.",
+          "Alcohols react with sodium leading to the evolution of hydrogen.",
+          "$2Na + 2CH_3CH_2OH \\rightarrow 2CH_3CH_2O^-Na^+ + H_2$",
+          "The product of the reaction between sodium and ethanol is sodium ethoxide.",
+          "Heating ethanol at 443 K with excess concentrated sulphuric acid results in the dehydration of ethanol to give ethene.",
+          "$CH_3CH_2OH \\xrightarrow{Hot\\ Conc.\\ H_2SO_4} CH_2=CH_2 + H_2O$",
+          "Concentrated sulphuric acid can be regarded as a dehydrating agent which removes water from ethanol."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Properties of Ethanoic Acid",
+        "key_concepts": [
+          "Ethanoic acid is commonly called acetic acid and belongs to a group of acids called carboxylic acids.",
+          "A 5-8% solution of acetic acid in water is called vinegar and is used widely as a preservative in pickles.",
+          "The melting point of pure ethanoic acid is 290 K.",
+          "Pure ethanoic acid often freezes during winter in cold climates, which gave rise to its name glacial acetic acid.",
+          "Carboxylic acids are weak acids, unlike mineral acids like HCl, which are completely ionised.",
+          "Esters are most commonly formed by reaction of an acid and an alcohol.",
+          "Ethanoic acid reacts with absolute ethanol in the presence of an acid catalyst to give an ester.",
+          "$CH_3COOH + CH_3CH_2OH \\xrightarrow{Acid} CH_3COOCH_2CH_3 + H_2O$",
+          "Generally, esters are sweet-smelling substances and are used in making perfumes and as flavouring agents.",
+          "The reaction where the ester is converted back to alcohol and sodium salt of carboxylic acid by treating with sodium hydroxide is known as saponification.",
+          "Saponification is used in the preparation of soap.",
+          "Like mineral acids, ethanoic acid reacts with a base such as sodium hydroxide to give a salt (sodium ethanoate) and water.",
+          "$NaOH + CH_3COOH \\rightarrow CH_3COONa + H_2O$",
+          "Ethanoic acid reacts with carbonates and hydrogencarbonates to give rise to a salt, carbon dioxide and water.",
+          "$2CH_3COOH + Na_2CO_3 \\rightarrow 2CH_3COONa + H_2O + CO_2$",
+          "$CH_3COOH + NaHCO_3 \\rightarrow CH_3COONa + H_2O + CO_2$"
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "SOAPS AND DETERGENTS",
+    "key_concepts": [
+      "Most dirt is oily in nature, and oil does not dissolve in water.",
+      "The molecules of soap are sodium or potassium salts of long-chain carboxylic acids.",
+      "The ionic-end of a soap molecule interacts with water while the carbon chain interacts with oil.",
+      "The soap molecules form structures called micelles where one end of the molecules is towards the oil droplet while the ionic-end faces outside.",
+      "Micelles form an emulsion in water.",
+      "The soap micelle helps in pulling out the dirt in water.",
+      "Hard water contains calcium and magnesium salts, which react with soap to form an insoluble substance called scum.",
+      "Scum remains after washing with water and causes foam to be formed with difficulty.",
+      "Detergents are another class of compounds used as cleansing agents to overcome the problem of hard water.",
+      "Detergents are generally sodium salts of sulphonic acids or ammonium salts with chlorides or bromides ions, etc.",
+      "The charged ends of detergents do not form insoluble precipitates with the calcium and magnesium ions in hard water.",
+      "Detergents remain effective in hard water and are usually used to make shampoos and products for cleaning clothes."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  }
+]
     ]
   },
   {
@@ -1097,7 +1155,15 @@
       {
         "topic_name": "Introduction",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "Using visible movement as the defining characteristic of life is not enough.",
+          "Movements over very small scales will be invisible to the naked eye – movements of molecules, for example.",
+          "Invisible molecular movement is necessary for life.",
+          "Viruses do not show any molecular movement in them (until they infect some cell), and that is partly why there is a controversy about whether they are truly alive or not.",
+          "Living organisms are well-organised structures; they can have tissues, tissues have cells, cells have smaller components in them, and so on.",
+          "Because of the effects of the environment, this organised, ordered nature of living structures is very likely to keep breaking down over time.",
+          "If order breaks down, the organism will no longer be alive.",
+          "Living creatures must keep repairing and maintaining their structures.",
+          "Since all these structures are made up of molecules, they must move molecules around all the time."
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1106,7 +1172,26 @@
       {
         "topic_name": "WHAT ARE LIFE PROCESSES?",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "The processes which together perform this maintenance job are life processes.",
+          "Since these maintenance processes are needed to prevent damage and break-down, energy is needed for them.",
+          "This energy comes from outside the body of the individual organism.",
+          "So there must be a process to transfer a source of energy from outside the body of the organism, which we call food, to the inside, a process we commonly call nutrition.",
+          "If the body size of the organisms is to grow, additional raw material will also be needed from outside.",
+          "Since life on earth depends on carbon-based molecules, most of these food sources are also carbon-based.",
+          "Depending on the complexity of these carbon sources, different organisms can then use different kinds of nutritional processes.",
+          "These sources of energy, therefore, need to be broken down or built up in the body, and must be finally converted to a uniform source of energy that can be used for the various molecular movements needed for maintaining living structures, as well as to the kind of molecules the body needs to grow.",
+          "Oxidising-reducing reactions are some of the most common chemical means to break-down molecules.",
+          "For this, many organisms use oxygen sourced from outside the body.",
+          "The process of acquiring oxygen from outside the body, and to use it in the process of break-down of food sources for cellular needs, is what we call respiration.",
+          "In the case of a single-celled organism, no specific organs for taking in food, exchange of gases or removal of wastes may be needed because the entire surface of the organism is in contact with the environment.",
+          "In multi-cellular organisms, all the cells may not be in direct contact with the surrounding environment.",
+          "Thus, simple diffusion will not meet the requirements of all the cells.",
+          "It is therefore not surprising that the uptake of food and of oxygen will also be the function of specialised tissues.",
+          "However, this poses a problem, since the food and oxygen are now taken up at one place in the body of the organisms, while all parts of the body need them.",
+          "This situation creates a need for a transportation system for carrying food and oxygen from one place to another in the body.",
+          "When chemical reactions use the carbon source and the oxygen for energy generation, they create by-products that are not only useless for the cells of the body, but could even be harmful.",
+          "These waste by-products are therefore needed to be removed from the body and discarded outside by a process called excretion.",
+          "Again, if the basic rules for body design in multi-cellular organisms are followed, a specialised tissue for excretion will be developed, which means that the transportation system will need to transport waste away from cells to this excretory tissue."
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1115,7 +1200,16 @@
       {
         "topic_name": "NUTRITION",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "Even when we are not doing any apparent activity, energy is needed to maintain a state of order in our body.",
+          "We also need materials from outside in order to grow, develop, synthesise protein and other substances needed in the body.",
+          "This source of energy and materials is the food we eat.",
+          "Some organisms use simple food material obtained from inorganic sources in the form of carbon dioxide and water.",
+          "These organisms, the autotrophs, include green plants and some bacteria.",
+          "Other organisms utilise complex substances.",
+          "These complex substances have to be broken down into simpler ones before they can be used for the upkeep and growth of the body.",
+          "To achieve this, organisms use bio-catalysts called enzymes.",
+          "The heterotrophs survival depends directly or indirectly on autotrophs.",
+          "Heterotrophic organisms include animals and fungi."
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1123,7 +1217,31 @@
           {
             "subtopic_name": "Autotrophic Nutrition",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "Carbon and energy requirements of the autotrophic organism are fulfilled by photosynthesis.",
+              "It is the process by which autotrophs take in substances from the outside and convert them into stored forms of energy.",
+              "This material is taken in the form of carbon dioxide and water which is converted into carbohydrates in the presence of sunlight and chlorophyll.",
+              "Carbohydrates are utilised for providing energy to the plant.",
+              "The carbohydrates which are not used immediately are stored in the form of starch, which serves as the internal energy reserve to be used as and when required by the plant.",
+              "some of the energy derived from the food we eat is stored in our body in the form of glycogen.",
+              "$6CO_2(aq) + 12H_2O(l) \\xrightarrow[Chlorophyll]{Sunlight} C_6H_{12}O_6(aq) + 6O_2(aq) + 6H_2O(l)$",
+              "Absorption of light energy by chlorophyll.",
+              "Conversion of light energy to chemical energy and splitting of water molecules into hydrogen and oxygen.",
+              "Reduction of carbon dioxide to carbohydrates.",
+              "These steps need not take place one after the other immediately.",
+              "desert plants take up carbon dioxide at night and prepare an intermediate which is acted upon by the energy absorbed by the chlorophyll during the day.",
+              "some cells contain green dots. These green dots are cell organelles called chloroplasts which contain chlorophyll.",
+              "stomata which are tiny pores present on the surface of the leaves.",
+              "Massive amounts of gaseous exchange takes place in the leaves through these pores for the purpose of photosynthesis.",
+              "exchange of gases occurs across the surface of stems, roots and leaves as well.",
+              "the plant closes these pores when it does not need carbon dioxide for photosynthesis.",
+              "The opening and closing of the pore is a function of the guard cells.",
+              "The guard cells swell when water flows into them, causing the stomatal pore to open.",
+              "the pore closes if the guard cells shrink.",
+              "Water used in photosynthesis is taken up from the soil by the roots in terrestrial plants.",
+              "Other materials like nitrogen, phosphorus, iron and magnesium are taken up from the soil.",
+              "Nitrogen is an essential element used in the synthesis of proteins and other compounds.",
+              "This is taken up in the form of inorganic nitrates or nitrites.",
+              "Or it is taken up as organic compounds which have been prepared by bacteria from atmospheric nitrogen."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1131,7 +1249,15 @@
           {
             "subtopic_name": "Heterotrophic Nutrition",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "Each organism is adapted to its environment.",
+              "The form of nutrition differs depending on the type and availability of food material as well as how it is obtained by the organism.",
+              "For example, whether the food source is stationary (such as grass) or mobile (such as a deer), would allow for differences in how the food is accessed and what is the nutritive apparatus used by a cow and a lion.",
+              "Some organisms break-down the food material outside the body and then absorb it.",
+              "Examples are fungi like bread moulds, yeast and mushrooms.",
+              "Others take in whole material and break it down inside their bodies.",
+              "What can be taken in and broken down depends on the body design and functioning.",
+              "Some other organisms derive nutrition from plants or animals without killing them.",
+              "This parasitic nutritive strategy is used by a wide variety of organisms like cuscuta (amar-bel), ticks, lice, leeches and tape-worms."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1139,7 +1265,14 @@
           {
             "subtopic_name": "How do Organisms obtain their Nutrition?",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "Since the food and the way it is obtained differ, the digestive system is different in various organisms.",
+              "In single-celled organisms, the food may be taken in by the entire surface.",
+              "As the complexity of the organism increases, different parts become specialised to perform different functions.",
+              "Amoeba takes in food using temporary finger-like extensions of the cell surface which fuse over the food particle forming a food-vacuole.",
+              "Inside the food-vacuole, complex substances are broken down into simpler ones which then diffuse into the cytoplasm.",
+              "The remaining undigested material is moved to the surface of the cell and thrown out.",
+              "In Paramoecium, which is also a unicellular organism, the cell has a definite shape and food is taken in at a specific spot.",
+              "Food is moved to this spot by the movement of cilia which cover the entire surface of the cell."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1147,7 +1280,46 @@
           {
             "subtopic_name": "Nutrition in Human Beings",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "The alimentary canal is basically a long tube extending from the mouth to the anus.",
+              "Various regions are specialised to perform different functions.",
+              "The food has to be processed to generate particles which are small and of the same texture.",
+              "This is achieved by crushing the food with our teeth.",
+              "The food is also wetted to make its passage smooth.",
+              "This is actually not only water, but a fluid called saliva secreted by the salivary glands.",
+              "If it is to be absorbed from the alimentary canal, it has to be broken into smaller molecules.",
+              "This is done with the help of biological catalysts called enzymes.",
+              "The saliva contains an enzyme called salivary amylase that breaks down starch which is a complex molecule to give simple sugar.",
+              "The food is mixed thoroughly with saliva and moved around the mouth while chewing by the muscular tongue.",
+              "The lining of canal has muscles that contract rhythmically in order to push the food forward.",
+              "These peristaltic movements occur all along the gut.",
+              "From the mouth, the food is taken to the stomach through the food-pipe or oesophagus.",
+              "The stomach is a large organ which expands when food enters it.",
+              "The muscular walls of the stomach help in mixing the food thoroughly with more digestive juices.",
+              "The digestion in stomach is taken care of by the gastric glands present in the wall of the stomach.",
+              "These release hydrochloric acid, a protein digesting enzyme called pepsin, and mucus.",
+              "The hydrochloric acid creates an acidic medium which facilitates the action of the enzyme pepsin.",
+              "The mucus protects the inner lining of the stomach from the action of the acid under normal conditions.",
+              "The exit of food from the stomach is regulated by a sphincter muscle which releases it in small amounts into the small intestine.",
+              "From the stomach, the food now enters the small intestine.",
+              "This is the longest part of the alimentary canal which is fitted into a compact space because of extensive coiling.",
+              "The length of the small intestine differs in various animals depending on the food they eat.",
+              "Herbivores eating grass need a longer small intestine to allow the cellulose to be digested.",
+              "Meat is easier to digest, hence carnivores like tigers have a shorter small intestine.",
+              "The small intestine is the site of the complete digestion of carbohydrates, proteins and fats.",
+              "It receives the secretions of the liver and pancreas for this purpose.",
+              "The food coming from the stomach is acidic and has to be made alkaline for the pancreatic enzymes to act.",
+              "Bile juice from the liver accomplishes this in addition to acting on fats.",
+              "Fats are present in the intestine in the form of large globules which makes it difficult for enzymes to act on them.",
+              "Bile salts break them down into smaller globules increasing the efficiency of enzyme action.",
+              "The pancreas secretes pancreatic juice which contains enzymes like trypsin for digesting proteins and lipase for breaking down emulsified fats.",
+              "The walls of the small intestine contain glands which secrete intestinal juice.",
+              "The enzymes present in it finally convert the proteins to amino acids, complex carbohydrates into glucose and fats into fatty acids and glycerol.",
+              "Digested food is taken up by the walls of the intestine.",
+              "The inner lining of the small intestine has numerous finger-like projections called villi which increase the surface area for absorption.",
+              "The villi are richly supplied with blood vessels which take the absorbed food to each and every cell of the body, where it is utilised for obtaining energy, building up new tissues and the repair of old tissues.",
+              "The unabsorbed food is sent into the large intestine where its wall absorb more water from this material.",
+              "The rest of the material is removed from the body via the anus.",
+              "The exit of this waste material is regulated by the anal sphincter."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1157,7 +1329,55 @@
       {
         "topic_name": "RESPIRATION",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "Diverse organisms do this in different ways – some use oxygen to break-down glucose completely into carbon dioxide and water, some use other pathways that do not involve oxygen.",
+          "In all cases, the first step is the break-down of glucose, a six-carbon molecule, into a three-carbon molecule called pyruvate.",
+          "This process takes place in the cytoplasm.",
+          "Further, the pyruvate may be converted into ethanol and carbon dioxide.",
+          "This process takes place in yeast during fermentation.",
+          "Since this process takes place in the absence of air (oxygen), it is called anaerobic respiration.",
+          "Breakdown of pyruvate using oxygen takes place in the mitochondria.",
+          "This process breaks up the three-carbon pyruvate molecule to give three molecules of carbon dioxide.",
+          "The other product is water.",
+          "Since this process takes place in the presence of air (oxygen), it is called aerobic respiration.",
+          "The release of energy in this aerobic process is a lot greater than in the anaerobic process.",
+          "Sometimes, when there is a lack of oxygen in our muscle cells, another pathway for the break-down of pyruvate is taken.",
+          "Here the pyruvate is converted into lactic acid which is also a three-carbon molecule.",
+          "This build-up of lactic acid in our muscles during sudden activity causes cramps.",
+          "The energy released during cellular respiration is immediately used to synthesise a molecule called ATP which is used to fuel all other activities in the cell.",
+          "In these processes, ATP is broken down giving rise to a fixed amount of energy which can drive the endothermic reactions taking place in the cell.",
+          "Since the aerobic respiration pathway depends on oxygen, aerobic organisms need to ensure that there is sufficient intake of oxygen.",
+          "We have seen that plants exchange gases through stomata, and the large inter-cellular spaces ensure that all cells are in contact with air.",
+          "Carbon dioxide and oxygen are exchanged by diffusion here.",
+          "The direction of diffusion depends upon the environmental conditions and the requirements of the plant.",
+          "At night, when there is no photosynthesis occurring, $CO_2$ elimination is the major exchange activity going on.",
+          "During the day, $CO_2$ generated during respiration is used up for photosynthesis, hence there is no $CO_2$ release.",
+          "Instead, oxygen release is the major event at this time.",
+          "Terrestrial animals can breathe the oxygen in the atmosphere, but animals that live in water need to use the oxygen dissolved in water.",
+          "Since the amount of dissolved oxygen is fairly low compared to the amount of oxygen in the air, the rate of breathing in aquatic organisms is much faster than that seen in terrestrial organisms.",
+          "Fishes take in water through their mouths and force it past the gills where the dissolved oxygen is taken up by blood.",
+          "Terrestrial organisms use the oxygen in the atmosphere for respiration.",
+          "All these organs have a structure that increases the surface area which is in contact with the oxygen-rich atmosphere.",
+          "Since the exchange of oxygen and carbon dioxide has to take place across this surface, this surface is very fine and delicate.",
+          "In order to protect this surface, it is usually placed within the body, so there have to be passages that will take air to this area.",
+          "In addition, there is a mechanism for moving the air in and out of this area where the oxygen is absorbed.",
+          "In human beings, air is taken into the body through the nostrils.",
+          "The air passing through the nostrils is filtered by fine hairs that line the passage.",
+          "The passage is also lined with mucus which helps in this process.",
+          "From here, the air passes through the throat and into the lungs.",
+          "Rings of cartilage are present in the throat.",
+          "These ensure that the air-passage does not collapse.",
+          "Within the lungs, the passage divides into smaller and smaller tubes which finally terminate in balloon-like structures which are called alveoli (singular–alveolus).",
+          "The alveoli provide a surface where the exchange of gases can take place.",
+          "The walls of the alveoli contain an extensive network of blood-vessels.",
+          "As we have seen in earlier years, when we breathe in, we lift our ribs and flatten our diaphragm, and the chest cavity becomes larger as a result.",
+          "Because of this, air is sucked into the lungs and fills the expanded alveoli.",
+          "The blood brings carbon dioxide from the rest of the body for release into the alveoli, and the oxygen in the alveolar air is taken up by blood in the alveolar blood vessels to be transported to all the cells in the body.",
+          "During the breathing cycle, when air is taken in and let out, the lungs always contain a residual volume of air so that there is sufficient time for oxygen to be absorbed and for the carbon dioxide to be released.",
+          "When the body size of animals is large, the diffusion pressure alone cannot take care of oxygen delivery to all parts of the body.",
+          "Instead, respiratory pigments take up oxygen from the air in the lungs and carry it to tissues which are deficient in oxygen before releasing it.",
+          "In human beings, the respiratory pigment is haemoglobin which has a very high affinity for oxygen.",
+          "This pigment is present in the red blood corpuscles.",
+          "Carbon dioxide is more soluble in water than oxygen is and hence is mostly transported in the dissolved form in our blood."
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1172,7 +1392,46 @@
           {
             "subtopic_name": "Transportation in Human Beings",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "blood transports food, oxygen and waste materials in our bodies.",
+              "blood being a fluid connective tissue.",
+              "Blood consists of a fluid medium called plasma in which the cells are suspended.",
+              "Plasma transports food, carbon dioxide and nitrogenous wastes in dissolved form.",
+              "Oxygen is carried by the red blood corpuscles.",
+              "Many other substances like salts, are also transported by the blood.",
+              "We thus need a pumping organ to push blood around the body, a network of tubes to reach all the tissues and a system in place to ensure that this network can be repaired if damaged.",
+              "The heart is a muscular organ which is as big as our fist.",
+              "Because both oxygen and carbon dioxide have to be transported by the blood, the heart has different chambers to prevent the oxygen-rich blood from mixing with the blood containing carbon dioxide.",
+              "The carbon dioxide-rich blood has to reach the lungs for the carbon dioxide to be removed, and the oxygenated blood from the lungs has to be brought back to the heart.",
+              "This oxygen-rich blood is then pumped to the rest of the body.",
+              "Oxygen-rich blood from the lungs comes to the thin-walled upper chamber of the heart on the left, the left atrium.",
+              "The left atrium relaxes when it is collecting this blood.",
+              "It then contracts, while the next chamber, the left ventricle, relaxes, so that the blood is transferred to it.",
+              "When the muscular left ventricle contracts in its turn, the blood is pumped out to the body.",
+              "De-oxygenated blood comes from the body to the upper chamber on the right, the right atrium, as it relaxes.",
+              "As the right atrium contracts, the corresponding lower chamber, the right ventricle, dilates.",
+              "This transfers blood to the right ventricle, which in turn pumps it to the lungs for oxygenation.",
+              "Since ventricles have to pump blood into various organs, they have thicker muscular walls than the atria do.",
+              "Valves ensure that blood does not flow backwards when the atria or ventricles contract.",
+              "The separation of the right side and the left side of the heart is useful to keep oxygenated and de-oxygenated blood from mixing.",
+              "Such separation allows a highly efficient supply of oxygen to the body.",
+              "This is useful in animals that have high energy needs, such as birds and mammals, which constantly use energy to maintain their body temperature.",
+              "Such animals, like amphibians or many reptiles have three-chambered hearts, and tolerate some mixing of the oxygenated and de-oxygenated blood streams.",
+              "Fishes, on the other hand, have only two chambers to their hearts, and the blood is pumped to the gills, is oxygenated there, and passes directly to the rest of the body.",
+              "Thus, blood goes only once through the heart in the fish during one cycle of passage through the body.",
+              "On the other hand, it goes through the heart twice during each cycle in other vertebrates. This is known as double circulation.",
+              "Arteries are the vessels which carry blood away from the heart to various organs of the body.",
+              "Since the blood emerges from the heart under high pressure, the arteries have thick, elastic walls.",
+              "Veins collect the blood from different organs and bring it back to the heart.",
+              "They do not need thick walls because the blood is no longer under pressure, instead they have valves that ensure that the blood flows only in one direction.",
+              "The smallest vessels have walls which are one-cell thick and are called capillaries.",
+              "Exchange of material between the blood and surrounding cells takes place across this thin wall.",
+              "The capillaries then join together to form veins that convey the blood away from the organ or tissue.",
+              "To avoid this, the blood has platelet cells which circulate around the body and plug these leaks by helping to clot the blood at these points of injury.",
+              "There is another type of fluid also involved in transportation. This is called lymph or tissue fluid.",
+              "Through the pores present in the walls of capillaries some amount of plasma, proteins and blood cells escape into intercellular spaces in the tissues to form the tissue fluid or lymph.",
+              "It is similar to the plasma of blood but colourless and contains less protein.",
+              "Lymph drains into lymphatic capillaries from the intercellular spaces, which join to form large lymph vessels that finally open into larger veins.",
+              "Lymph carries digested and absorbed fat from intestine and drains excess fluid from extra cellular space back into the blood."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1180,7 +1439,40 @@
           {
             "subtopic_name": "Transportation in Plants",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "For plants, the soil is the nearest and richest source of raw materials like nitrogen, phosphorus and other minerals.",
+              "The absorption of these substances therefore occurs through the part in contact with the soil, namely roots.",
+              "If the distances between soil-contacting organs and chlorophyll-containing organs are small, energy and raw materials can easily diffuse to all parts of the plant body.",
+              "But if these distances become large because of changes in plant body design, diffusion processes will not be sufficient to provide raw material in leaves and energy in roots.",
+              "A proper system of transportation is therefore essential in such situations.",
+              "Plants do not move, and plant bodies have a large proportion of dead cells in many tissues.",
+              "As a result, plants have low energy needs, and can use relatively slow transport systems.",
+              "Plant transport systems will move energy stores from leaves and raw materials from roots.",
+              "These two pathways are constructed as independently organised conducting tubes.",
+              "One, the xylem moves water and minerals obtained from the soil.",
+              "The other, phloem transports products of photosynthesis from the leaves where they are synthesised to other parts of the plant.",
+              "In xylem tissue, vessels and tracheids of the roots, stems and leaves are interconnected to form a continuous system of water-conducting channels reaching all parts of the plant.",
+              "At the roots, cells in contact with the soil actively take up ions.",
+              "This creates a difference in the concentration of these ions between the root and the soil.",
+              "Water, therefore, moves into the root from the soil to eliminate this difference.",
+              "This means that there is steady movement of water into root xylem, creating a column of water that is steadily pushed upwards.",
+              "However, this pressure by itself is unlikely to be enough to move water over the heights that we commonly see in plants.",
+              "Provided that the plant has an adequate supply of water, the water which is lost through the stomata is replaced by water from the xylem vessels in the leaf.",
+              "In fact, evaporation of water molecules from the cells of a leaf creates a suction which pulls water from the xylem cells of roots.",
+              "The loss of water in the form of vapour from the aerial parts of the plant is known as transpiration.",
+              "Thus, transpiration helps in the absorption and upward movement of water and minerals dissolved in it from roots to the leaves.",
+              "It also helps in temperature regulation.",
+              "The effect of root pressure in transport of water is more important at night.",
+              "During the day when the stomata are open, the transpiration pull becomes the major driving force in the movement of water in the xylem.",
+              "This transport of soluble products of photosynthesis is called translocation and it occurs in the part of the vascular tissue known as phloem.",
+              "Besides the products of photosynthesis, the phloem transports amino acids and other substances.",
+              "These substances are especially delivered to the storage organs of roots, fruits and seeds and to growing organs.",
+              "The translocation of food and other substances takes place in the sieve tubes with the help of adjacent companion cells both in upward and downward directions.",
+              "Unlike transport in xylem which can be largely explained by simple physical forces, the translocation in phloem is achieved by utilising energy.",
+              "Material like sucrose is transferred into phloem tissue using energy from ATP.",
+              "This increases the osmotic pressure of the tissue causing water to move into it.",
+              "This pressure moves the material in the phloem to tissues which have less pressure.",
+              "This allows the phloem to move material according to the plant’s needs.",
+              "For example, in the spring, sugar stored in root or stem tissue would be transported to the buds which need energy to grow."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1190,7 +1482,10 @@
       {
         "topic_name": "EXCRETION",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "Other metabolic activities generate nitrogenous materials which need to be removed.",
+          "The biological process involved in the removal of these harmful metabolic wastes from the body is called excretion.",
+          "Many unicellular organisms remove these wastes by simple diffusion from the body surface into the surrounding water.",
+          "complex multi-cellular organisms use specialised organs to perform the same function."
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1198,7 +1493,20 @@
           {
             "subtopic_name": "Excretion in Human Beings",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "The excretory system of human beings includes a pair of kidneys, a pair of ureters, a urinary bladder and a urethra.",
+              "Kidneys are located in the abdomen, one on either side of the backbone.",
+              "Urine produced in the kidneys passes through the ureters into the urinary bladder where it is stored until it is released through the urethra.",
+              "The purpose of making urine is to filter out waste products from the blood.",
+              "Just as $CO_2$ is removed from the blood in the lungs, nitrogenous waste such as urea or uric acid are removed from blood in the kidneys.",
+              "the basic filtration unit in the kidneys, like in the lungs, is a cluster of very thin-walled blood capillaries.",
+              "Each capillary cluster in the kidney is associated with the cup-shaped end of a coiled tube called Bowman’s capsule that collects the filtrate.",
+              "Each kidney has large numbers of these filtration units called nephrons packed close together.",
+              "Some substances in the initial filtrate, such as glucose, amino acids, salts and a major amount of water, are selectively re-absorbed as the urine flows along the tube.",
+              "The amount of water re-absorbed depends on how much excess water there is in the body, and on how much of dissolved waste there is to be excreted.",
+              "The urine forming in each kidney eventually enters a long tube, the ureter, which connects the kidneys with the urinary bladder.",
+              "Urine is stored in the urinary bladder until the pressure of the expanded bladder leads to the urge to pass it out through the urethra.",
+              "The bladder is muscular, so it is under nervous control.",
+              "As a result, we can usually control the urge to urinate."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1206,7 +1514,14 @@
           {
             "subtopic_name": "Excretion in Plants",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "Plants use completely different strategies for excretion than those of animals.",
+              "Oxygen itself can be thought of as a waste product generated during photosynthesis!",
+              "They can get rid of excess water by transpiration.",
+              "For other wastes, plants use the fact that many of their tissues consist of dead cells, and that they can even lose some parts such as leaves.",
+              "Many plant waste products are stored in cellular vacuoles.",
+              "Waste products may be stored in leaves that fall off.",
+              "Other waste products are stored as resins and gums, especially in old xylem.",
+              "Plants also excrete some waste substances into the soil around them."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1222,7 +1537,24 @@
       {
         "topic_name": "Introduction",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "Some of these movements are in fact the result of growth, as in plants.",
+          "A seed germinates and grows, and we can see that the seedling moves over the course of a few days, it pushes soil aside and comes out.",
+          "But if its growth were to be stopped, these movements would not happen.",
+          "Some movements, as in many animals and some plants, are not connected with growth.",
+          "A cat running, children playing on swings, buffaloes chewing cud – these are not movements caused by growth.",
+          "A possible answer is that we think of movement as a response to a change in the environment of the organism.",
+          "The cat may be running because it has seen a mouse.",
+          "we also think of movement as an attempt by living organisms to use changes in their environment to their advantage.",
+          "Plants grow out into the sunshine.",
+          "Children try to get pleasure and fun out of swinging.",
+          "Buffaloes chew cud to help break up tough food so as to be able to digest it better.",
+          "When bright light is focussed on our eyes or when we touch a hot object, we detect the change and respond to it with movement in order to protect ourselves.",
+          "all this movement, in response to the environment, is carefully controlled.",
+          "Each kind of a change in the environment evokes an appropriate movement in response.",
+          "Clearly, the movement to be made depends on the event that is triggering it.",
+          "Therefore, such controlled movement must be connected to the recognition of various events in the environment, followed by only the correct movement in response.",
+          "In other words, living organisms must use systems providing control and coordination.",
+          "In keeping with the general principles of body organisation in multicellular organisms, specialised tissues are used to provide these control and coordination activities."
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1231,7 +1563,16 @@
       {
         "topic_name": "ANIMALS – NERVOUS SYSTEM",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "In animals, such control and coordination are provided by nervous and muscular tissues.",
+          "All information from our environment is detected by the specialised tips of some nerve cells.",
+          "These receptors are usually located in our sense organs, such as the inner ear, the nose, the tongue, and so on.",
+          "gustatory receptors will detect taste while olfactory receptors will detect smell.",
+          "information, acquired at the end of the dendritic tip of a nerve cell, sets off a chemical reaction that creates an electrical impulse.",
+          "This impulse travels from the dendrite to the cell body, and then along the axon to its end.",
+          "At the end of the axon, the electrical impulse sets off the release of some chemicals.",
+          "These chemicals cross the gap, or synapse, and start a similar electrical impulse in a dendrite of the next neuron.",
+          "A similar synapse finally allows delivery of such impulses from neurons to other cells, such as muscles cells or gland.",
+          "nervous tissue is made up of an organised network of nerve cells or neurons, and is specialised for conducting information via electrical impulses from one part of the body to another."
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1239,7 +1580,18 @@
           {
             "subtopic_name": "What happens in Reflex Actions?",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "‘Reflex’ is a word we use very commonly when we talk about some sudden action in response to something in the environment.",
+              "A common idea in all such examples is that we do something without thinking about it, or without feeling in control of our reactions.",
+              "Thinking is a complex activity, so it is bound to involve a complicated interaction of many nerve impulses from many neurons.",
+              "The thinking tissue in our body consists of dense networks of intricately arranged neurons.",
+              "It sits in the forward end of the skull, and receives signals from all over the body which it thinks about before responding to them.",
+              "If the nerves that detect heat were to be connected to the nerves that move muscles in a simpler way, the process of detecting the signal or the input and responding to it by an output action might be completed quickly.",
+              "Such a connection is commonly called a reflex arc.",
+              "Nerves from all over the body meet in a bundle in the spinal cord on their way to the brain.",
+              "Reflex arcs are formed in this spinal cord itself, although the information input also goes on to reach the brain.",
+              "Reflex arcs have evolved in animals because the thinking process of the brain is not fast enough.",
+              "Reflex arcs have evolved as efficient ways of functioning in the absence of true thought processes.",
+              "Even after complex neuron networks have come into existence, reflex arcs continue to be more efficient for quick responses."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1247,7 +1599,30 @@
           {
             "subtopic_name": "Human Brain",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "Spinal cord is made up of nerves which supply information to think about.",
+              "Thinking involves more complex mechanisms and neural connections.",
+              "These are concentrated in the brain, which is the main coordinating centre of the body.",
+              "The brain and spinal cord constitute the central nervous system.",
+              "They receive information from all parts of the body and integrate it.",
+              "Writing, talking, moving a chair, clapping at the end of a programme are examples of voluntary actions which are based on deciding what to do next.",
+              "The brain also has to send messages to muscles.",
+              "The communication between the central nervous system and the other parts of the body is facilitated by the peripheral nervous system consisting of cranial nerves arising from the brain and spinal nerves arising from the spinal cord.",
+              "The brain thus allows us to think and take actions based on that thinking.",
+              "The brain has three such major parts or regions, namely the fore-brain, mid-brain and hind-brain.",
+              "The fore-brain is the main thinking part of the brain.",
+              "It has regions which receive sensory impulses from various receptors.",
+              "Separate areas of the fore-brain are specialised for hearing, smell, sight and so on.",
+              "There are separate areas of association where this sensory information is interpreted by putting it together with information from other receptors as well as with information that is already stored in the brain.",
+              "Based on all this, a decision is made about how to respond and the information is passed on to the motor areas which control the movement of voluntary muscles, for example, our leg muscles.",
+              "The sensation of feeling full is because of a centre associated with hunger, which is in a separate part of the fore-brain.",
+              "Our mouth waters when we see food we like without our meaning to.",
+              "Our hearts beat without our thinking about it.",
+              "In fact, we cannot control these actions easily by thinking about them even if we wanted to.",
+              "in between the simple reflex actions like change in the size of the pupil, and the thought out actions such as moving a chair, there is another set of muscle movements over which we do not have any thinking control.",
+              "Many of these involuntary actions are controlled by the mid-brain and hind-brain.",
+              "All these involuntary actions including blood pressure, salivation and vomiting are controlled by the medulla in the hind-brain.",
+              "Activities like walking in a straight line, riding a bicycle, picking up a pencil. These are possible due to a part of the hind-brain called the cerebellum.",
+              "It is responsible for precision of voluntary actions and maintaining the posture and balance of the body."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1255,7 +1630,9 @@
           {
             "subtopic_name": "How are these Tissues protected?",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "For this, the body is designed so that the brain sits inside a bony box.",
+              "Inside the box, the brain is contained in a fluid-filled balloon which provides further shock absorption.",
+              "This is the vertebral column or backbone which protects the spinal cord."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1263,7 +1640,11 @@
           {
             "subtopic_name": "How does the Nervous Tissue cause Action?",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "When the action or movement is to be performed, muscle tissue will do the final job.",
+              "When a nerve impulse reaches the muscle, the muscle fibre must move.",
+              "The simplest notion of movement at the cellular level is that muscle cells will move by changing their shape so that they shorten.",
+              "Muscle cells have special proteins that change both their shape and their arrangement in the cell in response to nervous electrical impulses.",
+              "When this happens, new arrangements of these proteins give the muscle cells a shorter form."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1273,7 +1654,14 @@
       {
         "topic_name": "COORDINATION IN PLANTS",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "plants have neither a nervous system nor muscles.",
+          "When we touch the leaves of a chhui-mui (the ‘sensitive’ or ‘touch-me-not’ plant of the Mimosa family), they begin to fold up and droop.",
+          "When a seed germinates, the root goes down, the stem comes up into the air.",
+          "the leaves of the sensitive plant move very quickly in response to touch.",
+          "There is no growth involved in this movement.",
+          "the directional movement of a seedling is caused by growth.",
+          "If it is prevented from growing, it will not show any movement.",
+          "So plants show two different types of movement – one dependent on growth and the other independent of growth."
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1281,7 +1669,14 @@
           {
             "subtopic_name": "Immediate Response to Stimulus",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "Since no growth is involved, the plant must actually move its leaves in response to touch.",
+              "there is no nervous tissue, nor any muscle tissue.",
+              "movement happens at a point different from the point of touch.",
+              "information that a touch has occurred must be communicated.",
+              "The plants also use electrical-chemical means to convey this information from cell to cell",
+              "unlike in animals, there is no specialised tissue in plants for the conduction of information.",
+              "some cells must change shape in order for movement to happen.",
+              "Instead of the specialised proteins found in animal muscle cells, plant cells change shape by changing the amount of water in them, resulting in swelling or shrinking, and therefore in changing shapes."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1289,7 +1684,34 @@
           {
             "subtopic_name": "Movement Due to Growth",
             "key_concepts": [
-              "ERROR: Could not process this text."
+              "These tendrils are sensitive to touch.",
+              "When they come in contact with any support, the part of the tendril in contact with the object does not grow as rapidly as the part of the tendril away from the object.",
+              "This causes the tendril to circle around the object and thus cling to it.",
+              "plants respond to stimuli slowly by growing in a particular direction.",
+              "Environmental triggers such as light, or gravity will change the directions that plant parts grow in.",
+              "These directional, or tropic, movements can be either towards the stimulus, or away from it.",
+              "in two different kinds of phototropic movement, shoots respond by bending towards light while roots respond by bending away from it.",
+              "The roots of a plant always grow downwards while the shoots usually grow upwards and away from the earth.",
+              "This upward and downward growth of shoots and roots, respectively, in response to the pull of earth or gravity is, obviously, geotropism.",
+              "One example of chemotropism is the growth of pollen tubes towards ovules, about which we will learn more when we examine the reproductive processes of living organisms.",
+              "The movement of the sensitive plant in response to touch is very quick.",
+              "The movement of sunflowers in response to day or night, on the other hand, is quite slow.",
+              "Growth-related movement of plants will be even slower.",
+              "most multicellular organisms use another means of communication between cells, namely, chemical communication.",
+              "If, instead of generating an electrical impulse, stimulated cells release a chemical compound, this compound would diffuse all around the original cell.",
+              "If other cells around have the means to detect this compound using special molecules on their surfaces, then they would be able to recognise information, and even transmit it.",
+              "This will be slower, of course, but it can potentially reach all cells of the body, regardless of nervous connections, and it can be done steadily and persistently.",
+              "Different plant hormones help to coordinate growth, development and responses to the environment.",
+              "They are synthesised at places away from where they act and simply diffuse to the area of action.",
+              "When growing plants detect light, a hormone called auxin, synthesised at the shoot tip, helps the cells to grow longer.",
+              "When light is coming from one side of the plant, auxin diffuses towards the shady side of the shoot.",
+              "This concentration of auxin stimulates the cells to grow longer on the side of the shoot which is away from light.",
+              "Thus, the plant appears to bend towards light.",
+              "Another example of plant hormones are gibberellins which, like auxins, help in the growth of the stem.",
+              "Cytokinins promote cell division, and it is natural then that they are present in greater concentration in areas of rapid cell division, such as in fruits and seeds.",
+              "These are examples of plant hormones that help in promoting growth.",
+              "Abscisic acid is one example of a hormone which inhibits growth.",
+              "Its effects include wilting of leaves."
             ],
             "questions": [],
             "activity_contexts": []
@@ -1299,7 +1721,37 @@
       {
         "topic_name": "HORMONES IN ANIMALS",
         "key_concepts": [
-          "ERROR: Could not process this text."
+          "if a chemical signal were to be sent as well, it would reach all cells of the body and provide the wide-ranging changes needed.",
+          "a hormone called adrenaline that is secreted from the adrenal glands.",
+          "Adrenaline is secreted directly into the blood and carried to different parts of the body.",
+          "The target organs or the specific tissues on which it acts include the heart.",
+          "As a result, the heart beats faster, resulting in supply of more oxygen to our muscles.",
+          "The blood to the digestive system and skin is reduced due to contraction of muscles around small arteries in these organs.",
+          "This diverts the blood to our skeletal muscles.",
+          "The breathing rate also increases because of the contractions of the diaphragm and the rib muscles.",
+          "All these responses together enable the animal body to be ready to deal with the situation.",
+          "Such animal hormones are part of the endocrine system which constitutes a second way of control and coordination in our body.",
+          "Iodine is necessary for the thyroid gland to make thyroxin hormone.",
+          "Thyroxin regulates carbohydrate, protein and fat metabolism in the body so as to provide the best balance for growth.",
+          "Iodine is essential for the synthesis of thyroxin.",
+          "In case iodine is deficient in our diet, there is a possibility that we might suffer from goitre.",
+          "One of the symptoms in this disease is a swollen neck.",
+          "Growth hormone is one of the hormones secreted by the pituitary.",
+          "growth hormone regulates growth and development of the body.",
+          "If there is a deficiency of this hormone in childhood, it leads to dwarfism.",
+          "These changes associated with puberty are because of the secretion of testosterone in males and oestrogen in females.",
+          "This is a hormone which is produced by the pancreas and helps in regulating blood sugar levels.",
+          "If it is not secreted in proper amounts, the sugar level in the blood rises causing many harmful effects.",
+          "The timing and amount of hormone released are regulated by feedback mechanisms.",
+          "if the sugar levels in blood rise, they are detected by the cells of the pancreas which respond by producing more insulin.",
+          "As the blood sugar level falls, insulin secretion is reduced.",
+          "Hormone: Growth hormone, Endocrine Gland: Pituitary gland, Functions: Stimulates growth and development of all organs",
+          "Hormone: Thyroxin, Endocrine Gland: Thyroid gland, Functions: Regulates carbohydrate, protein and fat metabolism for body growth",
+          "Hormone: Insulin, Endocrine Gland: Pancreas, Functions: Regulates blood sugar level",
+          "Hormone: Testosterone, Endocrine Gland: Testes, Functions: Development of male reproductive organs, secondary sexual characteristics",
+          "Hormone: Oestrogen, Endocrine Gland: Ovaries, Functions: Development of female sex organs, regulates menstrual cycle",
+          "Hormone: Adrenaline, Endocrine Gland: Adrenal gland, Functions: Increases heartbeat, breathing rate, diverts blood to muscles, prepares body for emergency response",
+          "Hormone: Releasing hormones, Endocrine Gland: Hypothalamus, Functions: Stimulates pituitary gland to release hormones"
         ],
         "questions": [],
         "activity_contexts": [],
@@ -1310,36 +1762,1113 @@
   {
     "chapter_number": 7,
     "chapter_name": "How do Organisms Reproduce?",
-    "topics": []
+    "topics": [
+  {
+    "topic_name": "DO ORGANISMS CREATE EXACT COPIES OF THEMSELVES?",
+    "key_concepts": [
+      "We notice organisms because they reproduce.",
+      "Reproduction at its most basic level involves making copies of the blueprints of body design.",
+      "The chromosomes in the nucleus of a cell contain information for inheritance of features from parents to next generation in the form of DNA (Deoxyribo Nucleic Acid) molecules.",
+      "The DNA in the cell nucleus is the information source for making proteins.",
+      "A basic event in reproduction is the creation of a DNA copy.",
+      "Cells use chemical reactions to build copies of their DNA, creating two copies which then need to be separated.",
+      "DNA copying is accompanied by the creation of an additional cellular apparatus, and then the DNA copies separate, each with its own cellular apparatus.",
+      "Effectively, a cell divides to give rise to two cells.",
+      "The process of copying the DNA will have some variations each time because no bio-chemical reaction is absolutely reliable.",
+      "The DNA copies generated will be similar, but may not be identical to the original.",
+      "This inbuilt tendency for variation during reproduction is the basis for evolution."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "The Importance of Variation",
+        "key_concepts": [
+          "Populations of organisms fill well-defined places, or niches, in the ecosystem, using their ability to reproduce.",
+          "The consistency of DNA copying is important for the maintenance of body design features that allow the organism to use a particular niche.",
+          "Reproduction is linked to the stability of populations of species.",
+          "If the niche of a population were drastically altered, the population could be wiped out.",
+          "If some variations were present in a few individuals, there would be some chance for them to survive.",
+          "Variation is useful for the survival of species over time (e.g., heat-resistant bacteria surviving increased water temperature)."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "MODES OF REPRODUCTION USED BY SINGLE ORGANISMS",
+    "key_concepts": [
+      "The modes by which various organisms reproduce depend on the body design of the organisms."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Fission",
+        "key_concepts": [
+          "For unicellular organisms, cell division, or **fission**, leads to the creation of new individuals.",
+          "Many bacteria and protozoa simply split into two equal halves during cell division.",
+          "In organisms such as Amoeba, the splitting of the two cells during division can take place in **any plane**.",
+          "In organisms like Leishmania (which cause kala-azar), **binary fission** occurs in a **definite orientation**.",
+          "Other single-celled organisms, such as the malarial parasite, **Plasmodium**, divide into many daughter cells simultaneously by **multiple fission**.",
+          "Yeast can put out small **buds** that separate and grow further."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Fragmentation",
+        "key_concepts": [
+          "In multi-cellular organisms with relatively simple body organisation (e.g., **Spirogyra**), the organism simply breaks up into smaller pieces (fragments) upon maturation.",
+          "These fragments grow into new individuals.",
+          "Multi-cellular organisms with complex body organization cannot simply divide cell-by-cell because their specialised cells are organized into tissues and organs.",
+          "Reproduction in complex multi-cellular organisms is the function of a **specific cell type** that is capable of growing, proliferating, and making other cell types."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Regeneration",
+        "key_concepts": [
+          "Many fully differentiated organisms have the ability to give rise to new individual organisms from their body parts.",
+          "If the individual is cut or broken up into many pieces, many of these pieces grow into separate individuals.",
+          "Examples of organisms that can regenerate include simple animals like **Hydra and Planaria**.",
+          "**Regeneration** is the process where a piece grows into a complete organism.",
+          "Regeneration is carried out by **specialised cells** which proliferate and make large numbers of cells.",
+          "Regeneration is **not the same as reproduction**, since most organisms do not normally depend on being cut up to reproduce."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Budding",
+        "key_concepts": [
+          "Organisms such as **Hydra** use regenerative cells for reproduction in the process of **budding**.",
+          "In Hydra, a bud develops as an outgrowth due to repeated cell division at one specific site.",
+          "The buds develop into tiny individuals, detach from the parent body when mature, and become new independent individuals."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Vegetative Propagation",
+        "key_concepts": [
+          "**Vegetative propagation** is a mode of asexual reproduction in plants where parts like the root, stem, and leaves develop into new plants.",
+          "This property is used in methods like **layering or grafting** to grow plants such as sugarcane, roses, or grapes.",
+          "Plants raised by vegetative propagation can bear flowers and fruits **earlier** than those produced from seeds.",
+          "Vegetative propagation makes possible the propagation of plants (e.g., banana, orange, rose, jasmine) that have **lost the capacity to produce seeds**.",
+          "All plants produced by vegetative propagation are **genetically similar** to the parent plant.",
+          "Buds produced in the notches along the leaf margin of **Bryophyllum** fall on the soil and develop into new plants.",
+          "**Tissue culture** is a technique where new plants are grown by removing tissue or separating cells from the growing tip of a plant.",
+          "In tissue culture, cells form a **callus** (a small group of dividing cells) which is then transferred to a medium containing hormones for growth and differentiation.",
+          "Tissue culture allows many plants to be grown from one parent in **disease-free conditions** and is commonly used for **ornamental plants**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Spore Formation",
+        "key_concepts": [
+          "Specific reproductive parts can be identified even in simple multi-cellular organisms like bread mould (**Rhizopus**).",
+          "The tiny blob-on-a-stick structures in Rhizopus are involved in reproduction.",
+          "The blobs are **sporangia**, which contain cells, or **spores**, that can develop into new individuals.",
+          "The spores are covered by thick walls that protect them until they come into contact with a moist surface.",
+          "All the modes discussed so far (fission, fragmentation, regeneration, budding, vegetative propagation, spore formation) are known as **asexual reproduction**, where new generations are created from a single individual."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "SEXUAL REPRODUCTION",
+    "key_concepts": [
+      "Sexual reproduction depends on the involvement of two individuals (male and female) before a new generation can be created."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Why the Sexual Mode of Reproduction?",
+        "key_concepts": [
+          "The sexual mode of reproduction allows **more and more variation** to be generated, which is useful for ensuring the survival of the species.",
+          "DNA-copying mechanisms are precise enough to make the generation of variation a fairly slow process.",
+          "Combining variations from two different individuals creates new, novel combinations of variants, **speeding up the process of making variants**.",
+          "Sexual reproduction incorporates a process of **combining DNA from two different individuals**.",
+          "A major difficulty of combining DNA is that each new generation would end up having **twice the amount of DNA**.",
+          "Multi-cellular organisms solve the DNA problem by having **special lineages of cells (germ-cells)** in specialised organs.",
+          "Germ-cells have **half the number of chromosomes and half the amount of DNA** compared to non-reproductive body cells.",
+          "The reduction of chromosome number is achieved by a process of cell division called **meiosis**.",
+          "When two germ-cells combine during sexual reproduction, it results in the **re-establishment of the number of chromosomes and the DNA content** in the new generation.",
+          "As body designs become more complex, germ-cells specialise: one is **large and contains food-stores (female gamete)**, and the other is **smaller and motile (male gamete)**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Sexual Reproduction in Flowering Plants",
+        "key_concepts": [
+          "The reproductive parts of angiosperms (flowering plants) are located in the **flower**.",
+          "**Stamens** and **pistil** are the reproductive parts that contain the germ-cells.",
+          "A flower may be **unisexual** (e.g., papaya, watermelon) containing either stamens or pistil, or **bisexual** (e.g., Hibiscus, mustard) containing both.",
+          "The **stamen** is the male reproductive part and produces **pollen grains**.",
+          "The **pistil** is the female reproductive part in the centre of a flower, made of the **ovary** (swollen bottom part), the **style** (middle elongated part), and the **stigma** (terminal sticky part).",
+          "The ovary contains **ovules**, and each ovule has an **egg cell** (female gamete).",
+          "**Fertilisation** is the fusion of the male germ-cell (from pollen) with the female gamete (in the ovule), which forms the **zygote**.",
+          "**Self-pollination** occurs if the transfer of pollen from stamen to stigma occurs in the same flower.",
+          "**Cross-pollination** occurs if the pollen is transferred from one flower to another, achieved by agents like wind, water, or animals.",
+          "After landing on the stigma, a **tube grows out of the pollen grain** and travels through the style to reach the ovary.",
+          "The zygote divides to form an **embryo** within the ovule.",
+          "The **ovule** develops a tough coat and is converted into a **seed**.",
+          "The **ovary** grows rapidly and ripens to form a **fruit**.",
+          "The **seed** contains the future plant or embryo, which develops into a seedling under appropriate conditions, a process known as **germination**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Reproduction in Human Beings",
+        "key_concepts": [
+          "Humans use a sexual mode of reproduction.",
+          "**Puberty** is the period during adolescence when the rate of general body growth begins to slow down, and reproductive tissues begin to mature.",
+          "Changes during puberty common to both boys and girls include growth of thick hair in armpits and the genital area, appearance of thinner hair on legs, arms, and face, oily skin, and pimples.",
+          "Changes specific to girls include increased breast size, darkening of nipples, and the onset of **menstruation**.",
+          "Changes specific to boys include new thick hair growth on the face, cracking of the voice, and occasional enlargement and erection of the penis.",
+          "These puberty changes are signals that **sexual maturation** is taking place.",
+          "The sexual mode requires germ-cells from two individuals to join, either externally (as in plants) or internally via **mating** (as in many animals).",
+          "The female reproductive organs and breasts need to mature to accommodate the possibility of carrying and breast-feeding a baby."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "7.3.3 (a) Male Reproductive System",
+        "key_concepts": [
+          "The formation of germ-cells or **sperms** takes place in the **testes**.",
+          "The testes are located outside the abdominal cavity in the **scrotum** because sperm formation requires a **lower temperature** than the normal body temperature.",
+          "Testosterone, secreted by the testes, regulates sperm formation and brings about changes in appearance seen in boys at puberty.",
+          "Sperms are delivered through the **vas deferens**, which unites with a tube from the urinary bladder.",
+          "The **urethra** forms a common passage for both sperms and urine.",
+          "Glands like the **prostate** and the **seminal vesicles** add their secretions to the sperms.",
+          "The fluid (semen) makes sperm transport easier and provides **nutrition** to the sperms.",
+          "Sperms are tiny bodies consisting mainly of **genetic material** and a **long tail** for movement."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "7.3.3 (b) Female Reproductive System",
+        "key_concepts": [
+          "The female germ-cells or **eggs** are made in the **ovaries**, which also produce some hormones.",
+          "Ovaries contain thousands of immature eggs at birth, and one egg starts maturing and is produced every month by one of the ovaries upon reaching puberty.",
+          "The egg is carried from the ovary to the womb through a thin **oviduct** or **fallopian tube**.",
+          "The two oviducts unite into an elastic bag-like structure known as the **uterus** (womb).",
+          "The uterus opens into the **vagina** through the **cervix**.",
+          "Sperms enter through the vaginal passage and travel upwards to the oviduct where they may encounter the egg.",
+          "The **fertilised egg (zygote)** starts dividing to form a ball of cells or **embryo**.",
+          "The embryo is **implanted in the lining of the uterus** where it grows and develops organs to become a **foetus**.",
+          "The lining of the uterus thickens and is richly supplied with blood every month to nourish the growing embryo.",
+          "The embryo gets nutrition from the mother’s blood with the help of a special tissue called **placenta**.",
+          "The **placenta** is a disc embedded in the uterine wall that provides a large surface area for glucose and oxygen to pass from the mother to the embryo.",
+          "Waste substances generated by the developing embryo are removed by transferring them into the mother’s blood through the placenta.",
+          "The development of the child inside the mother’s body takes approximately **nine months**.",
+          "The child is born as a result of rhythmic contractions of the muscles in the uterus."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "7.3.3 (c) What happens when the Egg is not Fertilised?",
+        "key_concepts": [
+          "If the egg is not fertilised, it lives for about **one day**.",
+          "The uterus prepares itself every month to receive a fertilised egg by making its lining thick and spongy.",
+          "If fertilisation does not take place, the unneeded lining slowly breaks and comes out through the vagina as **blood and mucous**.",
+          "This cycle takes place roughly every month and is known as **menstruation**.",
+          "Menstruation usually lasts for about two to eight days."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "7.3.3 (d) Reproductive Health",
+        "key_concepts": [
+          "Sexual maturation does not necessarily mean the body or mind is ready for sexual acts or for having and bringing up children.",
+          "Many diseases can be **sexually transmitted** (STDs) due to the intimate connection of bodies during the sexual act.",
+          "Bacterial STDs include **gonorrhoea and syphilis**; viral STDs include **warts and HIV-AIDS**.",
+          "Using a covering, called a **condom**, for the penis during sex helps to prevent transmission of many infections to some extent.",
+          "Contraceptive methods are devised to **avoid pregnancy**.",
+          "One category of contraceptive is the creation of a **mechanical barrier** so sperm does not reach the egg (e.g., condoms, vaginal coverings).",
+          "Another category acts by changing the **hormonal balance** of the body so that eggs are not released (e.g., oral pills), but these can cause side-effects.",
+          "Other contraceptive devices such as the **loop or the copper-T** are placed in the uterus to prevent pregnancy, but they can cause side effects due to irritation.",
+          "Surgical methods can be used to create blocks: blocking the **vas deferens** in males or the **fallopian tube** in females, preventing fertilisation.",
+          "Surgical methods used for removal of unwanted pregnancies can be misused for **illegal sex-selective abortion of female foetuses**.",
+          "For a healthy society, the **female-male sex ratio** must be maintained.",
+          "The size of the human population is a concern because an expanding population makes it harder to improve everybody’s standard of living."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  }
+]
   },
   {
     "chapter_number": 8,
     "chapter_name": "Heredity",
-    "topics": []
+    "topics": [
+  {
+    "topic_name": "ACCUMULATION OF VARIATION DURING REPRODUCTION",
+    "key_concepts": [
+      "Reproductive processes give rise to new individuals that are **similar, but subtly different**.",
+      "The number of successful variations is **maximised by the process of sexual reproduction**.",
+      "In asexually reproducing organisms (like sugarcane), very **little variation** is found.",
+      "In sexually reproducing organisms (like human beings), quite **distinct variations** are visible.",
+      "Inheritance from the previous generation provides both a **common basic body design** and **subtle changes** in it for the next generation.",
+      "In asexual reproduction (e.g., bacteria), differences are minor, generated due to **small inaccuracies in DNA copying**.",
+      "If sexual reproduction is involved, **even greater diversity** will be generated.",
+      "Different individuals have **different kinds of advantages** depending on the nature of their variations (e.g., bacteria that can withstand heat).",
+      "**Selection of variants by environmental factors** forms the basis for evolutionary processes."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "HEREDITY",
+    "key_concepts": [
+      "The most obvious outcome of the reproductive process is the generation of individuals of similar design.",
+      "The **rules of heredity** determine the process by which traits and characteristics are reliably inherited."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Inherited Traits",
+        "key_concepts": [
+          "A child bears all the basic features of a human being but does not look exactly like its parents.",
+          "Human populations show a great deal of variation."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Rules for the Inheritance of Traits – Mendel’s Contributions",
+        "key_concepts": [
+          "Both the father and the mother contribute practically **equal amounts of genetic material** to the child.",
+          "Each trait in a child can be influenced by both paternal and maternal DNA, meaning there will be **two versions** for each trait.",
+          "**Gregor Mendel** worked out the main rules of inheritance using experiments with garden peas.",
+          "Mendel was the first to **keep count of individuals** exhibiting a particular trait in each generation, which helped him arrive at the laws of inheritance.",
+          "Mendel used a number of **contrasting visible characters** of pea plants (e.g., round/wrinkled seeds, tall/short plants).",
+          "In Mendel’s $\text{F}_1$ progeny (crossing tall and short plants), there were **no halfway characteristics**; only one of the parental traits (tallness) was seen.",
+          "In the $\text{F}_2$ progeny (self-pollination of $\text{F}_1$ tall plants), one quarter of the plants were short, indicating both traits (tallness and shortness) were inherited in the $\text{F}_1$ generation, but only tallness was **expressed**.",
+          "Mendel proposed that two copies of **factor (now called genes)** controlling traits are present in sexually reproducing organisms.",
+          "A single copy of the gene for tallness (**T**) is enough to make the plant tall (**Dominant Trait**).",
+          "Both copies of the gene must be for shortness (**t**) for the plant to be short (**Recessive Trait**).",
+          "When plants with two different characteristics (tall/round and short/wrinkled) are crossed, the $\text{F}_1$ progeny are all **tall and have round seeds** (the dominant traits).",
+          "In the $\text{F}_2$ generation of a dihybrid cross, new combinations appear (tall with wrinkled seeds and short with round seeds).",
+          "The tall/short trait and the round seed/wrinkled seed trait are **independently inherited**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "How do these Traits get Expressed?",
+        "key_concepts": [
+          "Cellular DNA is the **information source for making proteins** in the cell.",
+          "A section of DNA that provides information for one protein is called the **gene** for that protein.",
+          "Traits are controlled by genes because the protein (e.g., an enzyme) made from the gene controls the process (e.g., hormone production) that leads to the characteristic (e.g., plant height).",
+          "To explain inheritance, it is assumed that **each parent contributes a copy of the same gene** and that each pea plant has **two sets of all genes**.",
+          "For this mechanism to work, each **germ cell must have only one gene set**.",
+          "Each gene set is present as separate independent pieces called **chromosomes**.",
+          "Every non-reproductive cell has **two copies of each chromosome** (one from the male parent and one from the female parent).",
+          "Every germ-cell takes **one chromosome from each pair** (either maternal or paternal origin).",
+          "When two germ cells combine (fertilisation), they restore the **normal number of chromosomes** in the progeny, ensuring the stability of the DNA of the species."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Sex Determination",
+        "key_concepts": [
+          "Sex determination strategies vary: some animals rely entirely on **environmental cues** (e.g., temperature for some reptiles).",
+          "In human beings, the sex of the individual is largely **genetically determined**.",
+          "Humans have **22 pairs of autosomes** (non-sex chromosomes) which are perfectly paired.",
+          "The **sex chromosomes** form the 23rd pair and are not always a perfect pair.",
+          "Women have a perfect pair of sex chromosomes, both called **X** ($\text{XX}$).",
+          "Men have a mismatched pair: one **X** and one shorter chromosome called **Y** ($\text{XY}$).",
+          "All children inherit an **X chromosome from their mother**.",
+          "The **sex of the children is determined by what they inherit from their father**.",
+          "Inheriting an $\text{X}$ from the father results in a girl ($\text{XX}$); inheriting a $\text{Y}$ from the father results in a boy ($\text{XY}$)."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  }
+]
   },
   {
     "chapter_number": 9,
     "chapter_name": "Light – Reflection and Refraction",
-    "topics": []
+    "topics": [
+  {
+    "topic_name": "REFLECTION OF LIGHT",
+    "key_concepts": [
+      "An object reflects light that falls on it, and this reflected light, when received by our eyes, enables us to see things.",
+      "Light seems to travel in **straight lines**, which is indicated by the fact that a small source of light casts a sharp shadow of an opaque object.",
+      "The straight-line path of light is usually indicated as a **ray of light**.",
+      "If an opaque object is very small, light has a tendency to bend around it, known as **diffraction of light**.",
+      "A **highly polished surface, such as a mirror**, reflects most of the light falling on it.",
+      "The **laws of reflection** are applicable to all types of reflecting surfaces, including spherical surfaces.",
+      "**Law (i):** The angle of incidence is equal to the angle of reflection.",
+      "**Law (ii):** The incident ray, the normal to the mirror at the point of incidence, and the reflected ray, all lie in the same plane.",
+      "The image formed by a **plane mirror** is always **virtual and erect**.",
+      "The size of the image formed by a plane mirror is **equal to that of the object**.",
+      "The image formed by a plane mirror is as far behind the mirror as the object is in front of it and is **laterally inverted**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "SPHERICAL MIRRORS",
+    "key_concepts": [
+      "The most commonly used type of curved mirror is the **spherical mirror**.",
+      "A spherical mirror whose reflecting surface is **curved inwards** (faces towards the centre) is called a **concave mirror**.",
+      "A spherical mirror whose reflecting surface is **curved outwards** is called a **convex mirror**.",
+      "The centre of the reflecting surface of a spherical mirror is the **pole ($\text{P}$)**.",
+      "The centre of the sphere of which the reflecting surface is a part is called the **centre of curvature ($\text{C}$)**.",
+      "The centre of curvature lies **in front** of a concave mirror and **behind** a convex mirror.",
+      "The radius of the sphere is called the **radius of curvature ($\text{R}$)**.",
+      "The imaginary straight line passing through the pole ($\text{P}$) and the centre of curvature ($\text{C}$) is called the **principal axis**.",
+      "The point where rays parallel to the principal axis meet (concave) or appear to diverge from (convex) after reflection is called the **principal focus ($\text{F}$)**.",
+      "The distance between the pole ($\text{P}$) and the principal focus ($\text{F}$) is called the **focal length ($\text{f}$)**.",
+      "The diameter of the reflecting surface is called its **aperture**.",
+      "For spherical mirrors of small apertures, the radius of curvature is equal to twice the focal length, expressed as **$\text{R}=2\text{f}$**.",
+      "This implies that the principal focus of a spherical mirror lies midway between the pole and centre of curvature."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Image Formation by Spherical Mirrors",
+        "key_concepts": [
+          "The nature, position, and size of the image formed by a concave mirror depends on the **position of the object** in relation to $\text{P}$, $\text{F}$, and $\text{C}$ (sometimes real, sometimes virtual, sometimes magnified, sometimes reduced).",
+          "A **convex mirror** gives a **virtual, erect, and diminished** image for all positions of the object.",
+          "A small convex mirror can give the **full image of a large object** (e.g., a tall building)."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Representation of Images Formed by Spherical Mirrors Using Ray Diagrams",
+        "key_concepts": [
+          "Image formation is studied by drawing ray diagrams, using only two specific rays for clarity.",
+          "**Ray (i):** A ray parallel to the principal axis, after reflection, passes through $\text{F}$ (concave) or appears to diverge from $\text{F}$ (convex).",
+          "**Ray (ii):** A ray passing through $\text{F}$ (concave) or directed towards $\text{F}$ (convex), after reflection, emerges **parallel** to the principal axis.",
+          "**Ray (iii):** A ray passing through $\text{C}$ (concave) or directed towards $\text{C}$ (convex), after reflection, is **reflected back along the same path** because it falls on the mirror along the normal.",
+          "**Ray (iv):** A ray incident obliquely to the principal axis at the pole ($\text{P}$) is reflected obliquely, following the laws of reflection (angle of incidence = angle of reflection)."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Sign Convention for Reflection by Spherical Mirrors",
+        "key_concepts": [
+          "The **New Cartesian Sign Convention** is followed, with the **pole ($\text{P}$) taken as the origin** and the principal axis as the x-axis.",
+          "The object is **always placed to the left** of the mirror, meaning light falls from the left-hand side.",
+          "All distances parallel to the principal axis are measured from the **pole ($\text{P}$)**.",
+          "Distances measured to the **right** of the origin are taken as **positive** ($\text{+x-axis}$).",
+          "Distances measured to the **left** of the origin are taken as **negative** ($\text{-x-axis}$).",
+          "Distances measured **perpendicular to and above** the principal axis are taken as **positive** ($\text{+y-axis}$).",
+          "Distances measured **perpendicular to and below** the principal axis are taken as **negative** ($\text{-y-axis}$)."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Mirror Formula and Magnification",
+        "key_concepts": [
+          "Object distance is ($\text{u}$), image distance is ($\text{v}$), and focal length is ($\text{f}$), all measured from the pole.",
+          "The **Mirror Formula** relates these quantities: $$\frac{1}{v}+\frac{1}{u}=\frac{1}{f}$$",
+          "**Magnification ($\text{m}$)** gives the relative extent to which the image is magnified with respect to the object size.",
+          "Magnification is the ratio of the height of the image ($\text{h'}$) to the height of the object ($\text{h}$): $$m=\frac{h'}{h}$$",
+          "Magnification is also related to the object and image distances: $$m=-\frac{v}{u}$$",
+          "A **negative sign** in the value of $\text{m}$ indicates that the image is **real**.",
+          "A **positive sign** in the value of $\text{m}$ indicates that the image is **virtual**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "REFRACTION OF LIGHT",
+    "key_concepts": [
+      "When light travels obliquely from one transparent medium to another, the direction of propagation of light in the second medium changes; this phenomenon is known as **refraction of light**.",
+      "The apparent raising of the bottom of a tank, the apparent displacement of a pencil in water, and letters appearing raised under a glass slab are all due to refraction.",
+      "The extent of the bending effect is **different for different pairs of media**.",
+      "Refraction is due to **change in the speed of light** as it enters from one transparent medium to another.",
+      "**Law (i):** The incident ray, the refracted ray and the normal to the interface, all lie in the same plane.",
+      "**Law (ii) (Snell's Law):** The ratio of sine of angle of incidence ($\text{i}$) to the sine of angle of refraction ($\text{r}$) is a constant for the light of a given colour and for the given pair of media: $$\frac{\\sin i}{\\sin r}=\text{constant}$$",
+      "This constant value is called the **refractive index** of the second medium with respect to the first."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Refraction through a Rectangular Glass Slab",
+        "key_concepts": [
+          "When a light ray enters from a **rarer medium to a denser medium** (e.g., air to glass), the ray **bends towards the normal**.",
+          "When a light ray enters from a **denser medium to a rarer medium** (e.g., glass to air), the ray **bends away from the normal**.",
+          "The emergent ray ($\text{O'H}$) from a rectangular glass slab is **parallel to the direction of the incident ray** ($\text{EO}$) because the bending at the two parallel faces is equal and opposite.",
+          "The light ray is shifted **sideward slightly** (lateral displacement)."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "The Refractive Index",
+        "key_concepts": [
+          "The extent of the change in light direction is expressed in terms of the **refractive index ($\text{n}$)**.",
+          "Light travels **fastest in vacuum** with speed $3 \times 10^{8} \text{ m } \text{s}^{-1}$.",
+          "The refractive index of medium 2 with respect to medium 1 ($\text{n}_{21}$) is the ratio of the speed of light in medium 1 ($\text{v}_1$) to the speed of light in medium 2 ($\text{v}_2$): $$n_{21} = \frac{v_1}{v_2}$$",
+          "The **absolute refractive index** ($\text{n}_{\text{m}}$) is the refractive index of a medium with respect to **vacuum or air**: $$n_m = \frac{\text{Speed of light in air (c)}}{\text{Speed of light in the medium (v)}}$$",
+          "The ability of a medium to refract light is expressed in terms of its **optical density**, which is **not the same as mass density**.",
+          "The medium with the **larger refractive index** is **optically denser**.",
+          "The speed of light is **higher in a rarer medium** than in a denser medium."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Refraction by Spherical Lenses",
+        "key_concepts": [
+          "A **lens** is a transparent material bound by two surfaces, of which one or both are spherical.",
+          "A **convex lens** (thicker at the middle) is a **converging lens** because it converges light rays.",
+          "A **concave lens** (thicker at the edges) is a **diverging lens** because it diverges light rays.",
+          "A lens has **two centres of curvature ($\text{C}_1$ and $\text{C}_2$)**.",
+          "The imaginary straight line passing through the two centres of curvature is the **principal axis**.",
+          "The central point of a lens is its **optical centre ($\text{O}$)**.",
+          "A ray of light through the **optical centre ($\text{O}$) passes without suffering any deviation**.",
+          "A lens has **two principal foci ($\text{F}_1$ and $\text{F}_2$)**.",
+          "The distance of the principal focus from the optical centre is the **focal length ($\text{f}$)**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Image Formation by Lenses",
+        "key_concepts": [
+          "The nature, position, and relative size of the image formed by a **convex lens** depends on the position of the object (similar to a concave mirror).",
+          "A **concave lens** will **always** give a **virtual, erect, and diminished image**, irrespective of the position of the object."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Image Formation in Lenses Using Ray Diagrams",
+        "key_concepts": [
+          "**Ray (i):** A ray parallel to the principal axis, after refraction, **passes through $\text{F}$** (convex) or **appears to diverge from $\text{F}$** (concave).",
+          "**Ray (ii):** A ray passing through $\text{F}$ (convex) or appearing to meet at $\text{F}$ (concave), after refraction, **emerges parallel** to the principal axis.",
+          "**Ray (iii):** A ray of light passing through the **optical centre ($\text{O}$) will emerge without any deviation**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Sign Convention for Spherical Lenses",
+        "key_concepts": [
+          "For lenses, the sign convention is similar to mirrors, but **all measurements are taken from the optical centre ($\text{O}$)**.",
+          "The focal length ($\text{f}$) of a **convex lens is positive**.",
+          "The focal length ($\text{f}$) of a **concave lens is negative**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Lens Formula and Magnification",
+        "key_concepts": [
+          "The **Lens Formula** relates the object distance ($\text{u}$), image distance ($\text{v}$), and focal length ($\text{f}$): $$\frac{1}{v}-\frac{1}{u}=\frac{1}{f}$$",
+          "The magnification ($\text{m}$) produced by a lens is the ratio of image height ($\text{h'}$) to object height ($\text{h}$): $$m=\frac{h'}{h}$$",
+          "Magnification is also related to the distances: $$m=\frac{v}{u}$$"
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Power of a Lens",
+        "key_concepts": [
+          "The **power ($\text{P}$) of a lens** expresses its degree of convergence or divergence of light rays.",
+          "The power of a lens is defined as the **reciprocal of its focal length ($\text{f}$)**: $$P=\frac{1}{f}$$",
+          "The **SI unit of power** of a lens is **dioptre ($\text{D}$)**, where $1\text{ D} = 1\text{ m}^{-1}$ (if $\text{f}$ is expressed in metres).",
+          "The power ($\text{P}$) of a **convex lens is positive**.",
+          "The power ($\text{P}$) of a **concave lens is negative**.",
+          "The net power of lenses placed in contact is the algebraic sum of the individual powers: $\text{P} = \text{P}_1 + \text{P}_2 + \text{P}_3 + \\dots$"
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  }
+]
   },
   {
     "chapter_number": 10,
     "chapter_name": "The Human Eye and the Colourful World",
-    "topics": []
+    "topics": [
+  {
+    "topic_name": "THE HUMAN EYE",
+    "key_concepts": [
+      "The human eye is one of the most valuable and sensitive sense organs, enabling us to see the world and colours around us.",
+      "The human eye is like a **camera**.",
+      "The eye's lens system forms an image on a light-sensitive screen called the **retina**.",
+      "Light enters the eye through a thin membrane called the **cornea**.",
+      "The cornea forms the **transparent bulge** on the front surface of the eyeball.",
+      "The eyeball is approximately spherical with a diameter of about **2.3 cm**.",
+      "Most of the **refraction** for the light rays entering the eye occurs at the **outer surface of the cornea**.",
+      "The **crystalline lens** provides the **finer adjustment of focal length** required to focus objects at different distances on the retina.",
+      "The **iris** is a dark muscular diaphragm behind the cornea that **controls the size of the pupil**.",
+      "The **pupil** regulates and controls the **amount of light entering the eye**.",
+      "The eye lens forms an **inverted real image** of the object on the retina.",
+      "The retina is a delicate membrane with an enormous number of **light-sensitive cells**.",
+      "Light-sensitive cells get activated upon illumination, generate **electrical signals**, which are sent to the brain via the **optic nerves**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Power of Accommodation",
+        "key_concepts": [
+          "The eye lens is composed of a fibrous, jelly-like material whose curvature can be modified by the **ciliary muscles**.",
+          "The change in the curvature of the eye lens changes its **focal length**.",
+          "When the ciliary muscles are relaxed, the lens becomes thin, its focal length increases, enabling us to see **distant objects clearly**.",
+          "When the ciliary muscles contract, the lens becomes thicker, its focal length decreases, enabling us to see **nearby objects clearly**.",
+          "The ability of the eye lens to adjust its focal length is called **accommodation**.",
+          "The minimum distance, at which objects can be seen most distinctly without strain, is called the **least distance of distinct vision** or the **near point**.",
+          "For a young adult with normal vision, the near point is about **25 cm**.",
+          "The farthest point up to which the eye can see objects clearly is called the **far point**, which is **infinity** for a normal eye.",
+          "A normal eye can see objects clearly that are between **25 cm and infinity**.",
+          "**Cataract** is a condition where the crystalline lens becomes milky and cloudy, causing partial or complete loss of vision, which can be restored through surgery."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "DEFECTS OF VISION AND THEIR CORRECTION",
+    "key_concepts": [
+      "The three common refractive defects of vision are **myopia (near-sightedness)**, **hypermetropia (far-sightedness)**, and **presbyopia**.",
+      "These defects can be corrected by the use of **suitable spherical lenses**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "(a) Myopia",
+        "key_concepts": [
+          "**Myopia** is also known as near-sightedness.",
+          "A person with myopia can see **nearby objects clearly** but **cannot see distant objects distinctly**.",
+          "The image of a distant object is formed **in front of the retina** in a myopic eye.",
+          "Myopia arises due to **(i) excessive curvature of the eye lens** or **(ii) elongation of the eyeball**.",
+          "This defect is corrected by using a **concave lens** of suitable power."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "(b) Hypermetropia",
+        "key_concepts": [
+          "**Hypermetropia** is also known as far-sightedness.",
+          "A person with hypermetropia can see **distant objects clearly** but **cannot see nearby objects distinctly**.",
+          "The near point is farther away from the normal near point (25 cm).",
+          "The light rays from a close object are focussed at a point **behind the retina**.",
+          "Hypermetropia arises either because **(i) the focal length of the eye lens is too long** or **(ii) the eyeball has become too small**.",
+          "This defect is corrected by using a **convex lens (converging lenses)** of appropriate power."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "(c) Presbyopia",
+        "key_concepts": [
+          "**Presbyopia** is the defect where the power of accommodation decreases with ageing, making it difficult to see nearby objects.",
+          "It arises due to the **gradual weakening of the ciliary muscles** and the **diminishing flexibility of the eye lens**.",
+          "People suffering from both myopia and hypermetropia often require **bi-focal lenses**.",
+          "Bi-focal lenses consist of a **concave lens in the upper portion** (for distant vision) and a **convex lens in the lower part** (for near vision)."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "REFRACTION OF LIGHT THROUGH A PRISM",
+    "key_concepts": [
+      "A triangular glass prism has two triangular bases and three rectangular lateral surfaces that are inclined to each other.",
+      "The angle between the two lateral faces of a prism is called the **angle of the prism**.",
+      "When light enters from air to glass at the first surface, it **bends towards the normal**.",
+      "When light enters from glass to air at the second surface, it **bends away from the normal**.",
+      "The peculiar shape of the prism makes the emergent ray bend at an angle to the direction of the incident ray.",
+      "The angle between the incident ray and the emergent ray is called the **angle of deviation ($\\angle\text{D}$)**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "DISPERSION OF WHITE LIGHT BY A GLASS PRISM",
+    "key_concepts": [
+      "The band of the coloured components of a light beam is called its **spectrum**.",
+      "The spectrum of white light contains the sequence of colours: **Violet, Indigo, Blue, Green, Yellow, Orange, and Red (VIBGYOR)**.",
+      "The **dispersion** of light is the **splitting of light into its component colours**.",
+      "White light is dispersed into seven-colour components by a prism because **different colours of light bend through different angles** as they pass through.",
+      "The **red light bends the least** while the **violet light bends the most**.",
+      "**Isaac Newton** was the first to obtain the spectrum of sunlight using a glass prism.",
+      "Newton demonstrated that sunlight is made up of seven colours by using a second, identical, **inverted prism** to recombine the spectrum back into **white light**.",
+      "A **rainbow** is a natural spectrum caused by **dispersion of sunlight by tiny water droplets** in the atmosphere.",
+      "A rainbow is always formed in a direction **opposite to that of the Sun**.",
+      "Water droplets act like small prisms: they **refract, disperse, reflect internally, and then refract again** when light comes out."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "ATMOSPHERIC REFRACTION",
+    "key_concepts": [
+      "**Atmospheric refraction** is the refraction of light by the earth's atmosphere.",
+      "Hot air is **lighter (less dense)** than cooler air and has a **refractive index slightly less** than cooler air.",
+      "The random wavering or flickering of objects seen through turbulent hot air is an effect of atmospheric refraction.",
+      "The **twinkling of stars** is due to atmospheric refraction of starlight on a larger scale.",
+      "The atmosphere bends starlight **towards the normal**, making the **apparent position of the star slightly higher** than its actual position near the horizon.",
+      "The apparent position of a star fluctuates because the **physical conditions of the earth's atmosphere are not stationary**.",
+      "Planets do not twinkle because they are much **closer to the earth** and are seen as **extended sources** (collections of point-sized sources).",
+      "Atmospheric refraction causes the Sun to be visible about **2 minutes before the actual sunrise** and about **2 minutes after the actual sunset**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "SCATTERING OF LIGHT",
+    "key_concepts": [
+      "The interplay of light with objects gives rise to phenomena like the blue colour of the sky, the colour of deep sea water, and the reddening of the sun at sunrise/sunset."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Tyndall Effect",
+        "key_concepts": [
+          "The earth's atmosphere is a **heterogeneous mixture** of minute particles (smoke, water droplets, dust, air molecules).",
+          "When a beam of light strikes these fine particles, the **path of the beam becomes visible**.",
+          "The light reaches us after being **reflected diffusely** by these particles.",
+          "The phenomenon of **scattering of light by colloidal particles** is called the **Tyndall effect**.",
+          "The **colour of the scattered light depends on the size** of the scattering particles.",
+          "**Very fine particles scatter mainly blue light** (shorter wavelengths).",
+          "**Larger particles scatter light of longer wavelengths**, and if the size is large enough, the scattered light appears white."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Why is the colour of the clear Sky Blue?",
+        "key_concepts": [
+          "Molecules of air and fine particles are **smaller than the wavelength of visible light**.",
+          "They are more effective in scattering light of **shorter wavelengths (blue end)** than light of longer wavelengths (red end).",
+          "The **red light has a wavelength about 1.8 times greater than blue light**.",
+          "When sunlight passes through the atmosphere, the fine particles scatter the blue colour more strongly, and this scattered blue light enters our eyes.",
+          "If the earth had no atmosphere, there would be no scattering, and the sky would look **dark**.",
+          "The sky appears dark to passengers flying at **very high altitudes** because scattering is not prominent there.",
+          "'Danger' signal lights are **red** because red is **least scattered by fog or smoke** and can be seen in the same colour at a distance."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  }
+]
   },
   {
     "chapter_number": 11,
     "chapter_name": "Electricity",
-    "topics": []
+    "topics": [
+  {
+    "topic_name": "ELECTRIC CURRENT AND CIRCUIT",
+    "key_concepts": [
+      "If the electric charge flows through a conductor (e.g., a metallic wire), there is an **electric current** in the conductor.",
+      "An electric current is the **rate of flow of electric charges**.",
+      "In circuits using metallic wires, **electrons** constitute the flow of charges.",
+      "A **continuous and closed path** of an electric current is called an **electric circuit**.",
+      "Conventionally, the direction of electric current is taken as **opposite to the direction of the flow of electrons** (negative charges).",
+      "If a net charge $\text{Q}$, flows across a conductor in time $\text{t}$, the current $\text{I}$ is given by: $$I=\\frac{Q}{t}$$",
+      "The **SI unit of electric charge is coulomb ($\text{C}$)**.",
+      "One coulomb is equivalent to the charge contained in nearly $6\\times10^{18}$ electrons.",
+      "The **electric current is expressed by a unit called ampere ($\text{A}$)**.",
+      "One ampere is constituted by the flow of **one coulomb of charge per second** ($1\text{ A}=1\text{ C}/1\text{ s}$ ).",
+      "An instrument called **ammeter** measures electric current and is always connected in **series** in a circuit.",
+      "Electric current flows in the circuit from the **positive terminal** of the cell to the **negative terminal**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "ELECTRIC POTENTIAL AND POTENTIAL DIFFERENCE",
+    "key_concepts": [
+      "Electrons move only if there is a difference of electric pressure, called the **potential difference**, along the conductor.",
+      "A **battery** (consisting of one or more electric cells) produces the potential difference.",
+      "The chemical action within a cell generates the potential difference across its terminals.",
+      "**Electric potential difference ($\text{V}$) is defined as the work done ($\text{W}$) to move a unit charge ($\text{Q}$) from one point to the other**.",
+      "$$V=W/Q$$",
+      "The **SI unit of electric potential difference is volt ($\text{V}$)**.",
+      "One volt is the potential difference when **1 joule ($\text{J}$) of work** is done to move a charge of **1 coulomb ($\text{C}$)** ($1\text{ V}=1\text{ J}\text{ C}^{-1}$ ).",
+      "The potential difference is measured by an instrument called the **voltmeter**.",
+      "The voltmeter is always connected in **parallel** across the points between which the potential difference is to be measured."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "CIRCUIT DIAGRAM",
+    "key_concepts": [
+      "A schematic diagram is used to represent an electric circuit, where different components are represented by conventional symbols (e.g., cell, battery, key, resistor, ammeter, voltmeter)."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "OHM’S LAW",
+    "key_concepts": [
+      "**Ohm's Law:** The potential difference ($\text{V}$) across the ends of a metallic wire is **directly proportional to the current ($\text{I}$) flowing through it**, provided its temperature remains the same.",
+      "$$V\\propto I$$ or $$V=IR$$",
+      "$\text{R}$ is a constant for a given metallic wire at a given temperature and is called its **resistance**.",
+      "**Resistance ($\text{R}$)** is the property of a conductor to **resist the flow of charges** through it.",
+      "The **SI unit of resistance is ohm ($\\Omega$)**.",
+      "$$R=V/I$$ (1 ohm = 1 volt / 1 ampere)",
+      "The current ($\text{I}$) through a resistor is **inversely proportional to its resistance** ($I=V/R$).",
+      "A component used to regulate current without changing the voltage source is called **variable resistance**.",
+      "A device called **rheostat** is often used to change the resistance in a circuit.",
+      "Motion of electrons through a conductor is retarded by its resistance due to attraction from the atoms.",
+      "A component offering **low resistance** is a **good conductor**; one offering an **appreciable resistance** is called a **resistor**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "FACTORS ON WHICH THE RESISTANCE OF A CONDUCTOR DEPENDS",
+    "key_concepts": [
+      "The resistance ($\text{R}$) of a conductor depends on: **(i) its length ($\text{l}$)**, **(ii) its area of cross-section ($\text{A}$)**, and **(iii) the nature of its material**.",
+      "Resistance ($\text{R}$) is **directly proportional to its length ($\text{l}$)** ($\text{R} \\propto l$).",
+      "Resistance ($\text{R}$) is **inversely proportional to the area of cross-section ($\text{A}$)** ($\text{R} \\propto 1/A$).",
+      "The relationship is given by: $$R=\\rho\\frac{l}{A}$$",
+      "$\rho$ (rho) is the constant of proportionality called the **electrical resistivity** of the material.",
+      "The **SI unit of resistivity is $\\Omega\text{ m}$**.",
+      "Metals and alloys have **very low resistivity** ($10^{-8}\\ \\Omega\text{m}$ to $10^{-6}\\ \\Omega\text{m}$) and are **good conductors**.",
+      "Insulators (e.g., rubber, glass) have **high resistivity** ($10^{12}\\ \\Omega\text{m}$ to $10^{17}\\ \\Omega\text{m}$).",
+      "The resistivity of an alloy is generally **higher** than that of its constituent metals.",
+      "Alloys are commonly used in electrical heating devices (e.g., electric iron, toasters) because they **do not oxidise (burn) readily at high temperatures**.",
+      "Tungsten is used for **filaments of electric bulbs** because of its high melting point."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "RESISTANCE OF A SYSTEM OF RESISTORS",
+    "key_concepts": [
+      "Resistors can be joined in two ways: **series** (joined end to end) or **parallel** (connected together between two common points)."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Resistors in Series",
+        "key_concepts": [
+          "In a series combination, the **current ($\text{I}$) is the same** in every part of the circuit and through each resistor.",
+          "The **total potential difference ($\text{V}$) is equal to the sum of the potential differences** across the individual resistors: $$V=V_1+V_2+V_3$$",
+          "The equivalent resistance of the combination ($\text{R}_{\text{s}}$) equals the **sum of their individual resistances** ($R_1, R_2, R_3$): $$R_s=R_1+R_2+R_3$$",
+          "The equivalent resistance in a series combination is **greater than any individual resistance**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Resistors in Parallel",
+        "key_concepts": [
+          "In a parallel combination, the **total current ($\text{I}$) is equal to the sum of the separate currents** through each branch: $$I=I_1+I_2+I_3$$",
+          "The **reciprocal of the equivalent resistance ($\text{R}_{\text{p}}$)** is equal to the **sum of the reciprocals of the individual resistances** ($R_1, R_2, R_3$): $$\\frac{1}{R_p}=\\frac{1}{R_1}+\\frac{1}{R_2}+\\frac{1}{R_3}$$",
+          "The potential difference ($\text{V}$) across each resistor in a parallel combination is the same."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "HEATING EFFECT OF ELECTRIC CURRENT",
+    "key_concepts": [
+      "To maintain current, the energy source (battery) has to keep expending its energy.",
+      "When the electric circuit is **purely resistive**, the source energy continually gets dissipated **entirely in the form of heat**.",
+      "This dissipation is known as the **heating effect of electric current**.",
+      "The amount of heat ($\text{H}$) produced in time $\text{t}$ is given by: $$H=VIt$$",
+      "Applying Ohm's law, the heat produced is: $$H=I^2Rt$$",
+      "This is known as **Joule's law of heating**.",
+      "Joule's law implies that heat produced ($\text{H}$) is directly proportional to: **(i) the square of current ($\text{I}^2$)**, **(ii) the resistance ($\text{R}$)**, and **(iii) the time ($\text{t}$)** for which the current flows."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Practical Applications of Heating Effect of Electric Current",
+        "key_concepts": [
+          "The heating effect is utilised in devices like the **electric iron, toaster, electric oven, electric kettle, and electric heater**.",
+          "In an electric bulb, the filament must retain heat to get very hot and emit light; a strong metal with a **high melting point, such as tungsten ($3380^{\\circ}\text{C}$),** is used for the filament.",
+          "Electric bulbs are usually filled with chemically inactive **nitrogen and argon gases** to prolong the life of the filament.",
+          "Another common application is the **fuse**, which protects circuits and appliances by stopping the flow of unduly high electric current.",
+          "The fuse is placed in **series** with the device.",
+          "A fuse consists of a wire made of a metal or alloy (e.g., aluminium, copper, lead) with an **appropriate melting point**.",
+          "If the current is too high, the fuse wire melts and breaks the circuit."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "ELECTRIC POWER",
+    "key_concepts": [
+      "**Electric power ($\text{P}$)** is the **rate of consumption of electric energy** or the rate at which electric energy is dissipated.",
+      "Power ($\text{P}$) is given by: $$P=VI$$ or $$P=I^2R=\\frac{V^2}{R}$$",
+      "The **SI unit of electric power is watt ($\text{W}$)**.",
+      "One watt is the power consumed by a device carrying $\text{1 A}$ of current at $\text{1 V}$ potential difference ($1\text{ W}=1\text{ VA}$ ).",
+      "The commercial unit of electric energy is the **kilowatt hour ($\text{kWh}$)**, commonly known as a **'unit'**.",
+      "$$1\text{ kWh} = 3.6\\times10^{6} \text{ joule } (\text{J})$$."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  }
+]
   },
   {
     "chapter_number": 12,
     "chapter_name": "Magnetic Effects of Electric Current",
-    "topics": []
+    "topics": [
+  {
+    "topic_name": "MAGNETIC FIELD AND FIELD LINES",
+    "key_concepts": [
+      "An electric current-carrying wire **behaves like a magnet** (produces a magnetic effect).",
+      "**Hans Christian Oersted** discovered that a compass needle got deflected when an electric current passed through a metallic wire placed nearby, showing that electricity and magnetism were related phenomena.",
+      "A compass needle is a **small bar magnet**.",
+      "The end of a compass needle pointing North is the **North seeking or North pole**.",
+      "The end of a compass needle pointing South is the **South seeking or South pole**.",
+      "**Like poles repel**, while **unlike poles attract** each other.",
+      "The **magnetic field** is the region surrounding a magnet in which the force of the magnet can be detected.",
+      "The lines along which iron filings align themselves represent **magnetic field lines**.",
+      "Magnetic field is a quantity that has both **direction and magnitude**.",
+      "By convention, the magnetic field lines **emerge from the north pole and merge at the south pole** outside the magnet.",
+      "Inside the magnet, the direction of field lines is from its **south pole to its north pole**.",
+      "Thus, the magnetic field lines are **closed curves**.",
+      "The **relative strength** of the magnetic field is shown by the **degree of closeness** of the field lines.",
+      "The field is stronger where the field lines are **crowded**.",
+      "**No two field-lines are found to cross each other**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  },
+  {
+    "topic_name": "MAGNETIC FIELD DUE TO A CURRENT-CARRYING CONDUCTOR",
+    "key_concepts": [
+      "An electric current through a metallic conductor produces a magnetic field around it.",
+      "The **direction of the magnetic field** produced is **reversed** when the direction of the electric current is reversed."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Magnetic Field due to a Current through a Straight Conductor",
+        "key_concepts": [
+          "The pattern of the magnetic field around a current-carrying straight wire consists of **concentric circles** centered on the wire.",
+          "The **magnitude of the magnetic field** produced at a given point **increases as the current through the wire increases**.",
+          "The **magnetic field decreases as the distance from the conductor increases**.",
+          "The concentric circles representing the magnetic field become **larger and larger** as we move away from the wire."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Right-Hand Thumb Rule",
+        "key_concepts": [
+          "The **Right-Hand Thumb Rule** is a convenient way of finding the direction of the magnetic field associated with a current-carrying straight conductor.",
+          "If you hold the conductor in your right hand with the **thumb pointing towards the direction of current**.",
+          "Then your **fingers will wrap around the conductor in the direction of the magnetic field lines**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Magnetic Field due to a Current through a Circular Loop",
+        "key_concepts": [
+          "At every point of a current-carrying circular loop, the concentric circles representing the magnetic field become larger and larger as one moves away from the wire.",
+          "At the **centre of the circular loop**, the arcs of these big circles appear as **straight lines**.",
+          "Every section of the wire contributes to the magnetic field lines **in the same direction** within the loop."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Magnetic Field due to a Current in a Solenoid",
+        "key_concepts": [
+          "A **solenoid** is a coil of many circular turns of insulated copper wire wrapped closely in the shape of a cylinder.",
+          "The pattern of the magnetic field lines around a current-carrying solenoid is **similar to that of a bar magnet**.",
+          "One end of the solenoid behaves as a magnetic **north pole** and the other as the **south pole**.",
+          "The field lines **inside the solenoid are parallel straight lines**, indicating that the magnetic field is **uniform** inside the solenoid.",
+          "A strong magnetic field produced inside a solenoid can be used to magnetise a piece of magnetic material, like soft iron, to form an **electromagnet**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "FORCE ON A CURRENT-CARRYING CONDUCTOR IN A MAGNETIC FIELD",
+    "key_concepts": [
+      "A magnetic field produced by a current-carrying conductor exerts a force on a magnet placed nearby.",
+      "The magnet must also exert an **equal and opposite force on the current-carrying conductor**.",
+      "A force is exerted on a current-carrying conductor when it is **placed in a magnetic field**.",
+      "The direction of the force is **reversed** when the **direction of current is reversed** or when the **direction of the magnetic field is reversed**.",
+      "The direction of the force depends upon the **direction of current and the direction of the magnetic field**.",
+      "The magnitude of the force is the **highest (largest)** when the direction of current is **at right angles** ($90^{\\circ}$) to the direction of the magnetic field."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Fleming's Left-Hand Rule",
+        "key_concepts": [
+          "**Fleming's Left-Hand Rule** is a simple rule to find the direction of the force on a current-carrying conductor when the current and magnetic field are perpendicular.",
+          "Stretch the **thumb, forefinger, and middle finger** of your left hand such that they are **mutually perpendicular**.",
+          "If the **forefinger** points in the direction of the **Magnetic Field**.",
+          "And the **middle finger** points in the direction of the **Current**.",
+          "Then the **thumb** will point in the direction of **Motion or the Force** acting on the conductor.",
+          "Devices that use current-carrying conductors and magnetic fields include the **electric motor, electric generator, loudspeakers, microphones and measuring instruments**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "DOMESTIC ELECTRIC CIRCUITS",
+    "key_concepts": [
+      "In domestic circuits, the **live wire** (or positive) usually has **red insulation** cover.",
+      "The **neutral wire** (or negative) has **black insulation**.",
+      "In India, the potential difference between the live and neutral wires is **220 V**.",
+      "There are often two separate domestic circuits: one of **15 A** rating (for high-power appliances like geysers), and another of **5 A** rating (for low-power appliances like bulbs/fans).",
+      "The **earth wire** has **green insulation** and is connected to a metal plate deep in the earth as a safety measure.",
+      "The metallic body of an appliance (e.g., iron, toaster) is connected to the earth wire, providing a **low-resistance conducting path** for leakage current to prevent the user from getting a severe electric shock.",
+      "Domestic appliances are connected in **parallel** to each other so that each appliance has **equal potential difference**.",
+      "**Overloading** occurs when the current in the circuit abruptly increases.",
+      "**Short-circuiting** occurs when the live wire and the neutral wire come into direct contact (due to damaged insulation or a fault).",
+      "The **electric fuse** prevents damage to appliances and the circuit by stopping the flow of unduly high electric current by **melting due to Joule heating**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": []
+  }
+]
   },
   {
     "chapter_number": 13,
     "chapter_name": "Our Environment",
-    "topics": []
+    "topics": [
+  {
+    "topic_name": "ECO-SYSTEM - WHAT ARE ITS COMPONENTS?",
+    "key_concepts": [
+      "All the interacting organisms in an area together with the non-living constituents of the environment form an **ecosystem**.",
+      "An ecosystem consists of **biotic components** (living organisms like plants, animals, microorganisms, human beings) and **abiotic components** (physical factors like temperature, rainfall, wind, soil, and minerals).",
+      "**Natural ecosystems** are forests, ponds, and lakes.",
+      "**Human-made (artificial) ecosystems** are gardens and crop-fields.",
+      "**Producers** are organisms (all green plants and certain bacteria) that make organic compounds (food) from inorganic substances using the radiant energy of the Sun through photosynthesis.",
+      "**Consumers** are organisms that depend on producers either directly or indirectly for their sustenance.",
+      "Consumers can be classed as **herbivores, carnivores, omnivores, and parasites**.",
+      "**Decomposers** are microorganisms, comprising bacteria and fungi, that break-down the dead remains and waste products of organisms.",
+      "Decomposers break-down complex organic substances into simple inorganic substances that go into the soil and are used up once more by plants."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Food Chains and Webs",
+        "key_concepts": [
+          "A **food chain** is a series of organisms feeding on one another.",
+          "Each step or level of the food chain forms a **trophic level**.",
+          "**Autotrophs (producers)** are at the **first trophic level**.",
+          "**Herbivores (primary consumers)** are at the **second trophic level**.",
+          "**Small carnivores (secondary consumers)** are at the **third trophic level**.",
+          "**Larger carnivores (tertiary consumers)** form the **fourth trophic level**.",
+          "The flow of energy between various components of the environment is **unidirectional**.",
+          "Green plants capture about **1% of the energy of sunlight** that falls on their leaves and convert it into food energy.",
+          "An average of **10% of the food eaten** is turned into its own body and made available for the next level of consumers (the **10% law**).",
+          "Food chains generally consist of **only three or four steps** because the loss of usable energy at each step is very great.",
+          "There are generally a **greater number of individuals at the lower trophic levels** of an ecosystem (the greatest number is of the producers).",
+          "A **food web** is a series of branching lines that shows the complex relationships where one organism is generally eaten by two or more other kinds of organisms.",
+          "**Biological magnification** is the phenomenon where non-degradable chemicals (like pesticides) get accumulated progressively at each trophic level.",
+          "As human beings occupy the top level in any food chain, the **maximum concentration of these chemicals gets accumulated in our bodies**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  },
+  {
+    "topic_name": "HOW DO OUR ACTIVITIES AFFECT THE ENVIRONMENT?",
+    "key_concepts": [
+      "We are an integral part of the environment; changes in the environment affect us, and our activities change the environment.",
+      "Two major environmental problems are the **depletion of the ozone layer** and **waste disposal**."
+    ],
+    "questions": [],
+    "activity_contexts": [],
+    "subtopics": [
+      {
+        "subtopic_name": "Ozone Layer and How it is Getting Depleted",
+        "key_concepts": [
+          "**Ozone ($\text{O}_3$)** is a molecule formed by three atoms of oxygen.",
+          "At the higher levels of the atmosphere, ozone performs the essential function of **shielding the surface of the earth from ultraviolet ($\text{UV}$) radiation** from the Sun.",
+          "UV radiation is highly damaging to organisms (e.g., known to cause **skin cancer** in humans).",
+          "Ozone is formed at higher atmospheric levels by UV radiation splitting molecular oxygen ($\text{O}_2$) into free oxygen ($\text{O}$) atoms, which then combine with molecular oxygen: $\text{UV}\\ O_2\rightarrow \text{O}+\text{O}$; $\text{O}+\text{O}_2\rightarrow \text{O}_3\\ \text{(Ozone)}$",
+          "The ozone amount began to drop sharply in the 1980s, linked to synthetic chemicals like **chlorofluorocarbons ($\text{CFCs}$)**.",
+          "$\text{CFCs}$ are used as **refrigerants** and in **fire extinguishers**.",
+          "In 1987, the **United Nations Environment Programme (UNEP)** forged an agreement to freeze $\text{CFC}$ production at 1986 levels.",
+          "It is now mandatory for all manufacturing companies to make **CFC-free refrigerators** throughout the world."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      },
+      {
+        "subtopic_name": "Managing the Garbage we Produce",
+        "key_concepts": [
+          "**Enzymes are specific in their action**; specific enzymes are needed for the break-down of a particular substance.",
+          "Many human-made materials like **plastics will not be broken down** by the action of bacteria or other saprophytes.",
+          "Substances that are broken down by biological processes are said to be **biodegradable**.",
+          "Substances that are not broken down by biological processes are said to be **non-biodegradable**.",
+          "Non-biodegradable substances persist for a long time in the environment or may harm members of the ecosystem.",
+          "Improvements in our life-style have resulted in **greater amounts of waste material generation**.",
+          "Changes in packaging have resulted in much of our waste becoming **non-biodegradable**."
+        ],
+        "questions": [],
+        "activity_contexts": []
+      }
+    ]
+  }
+]
   }
 ]
