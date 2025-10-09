@@ -7,7 +7,7 @@ from google.api_core.exceptions import ResourceExhausted
 
 # --- Configuration ---
 try:
-    genai.configure(api_key="AIzaSyAtNxpha-7A0LF0FbR0jvVH8IO-IQ4QqUw")
+    genai.configure(api_key="")
 except KeyError:
     print("Error: GOOGLE_API_KEY environment variable not set.")
     exit()
