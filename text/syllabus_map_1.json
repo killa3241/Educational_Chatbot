@@ -1007,7 +1007,9 @@
         "subtopics": []
       }
     ]
-  },
+      }
+]
+},
   {
     "chapter_number": 2,
     "chapter_name": "Acids, Bases and Salts",
@@ -2076,9 +2078,7 @@
         ]
       }
     ]
-  }
-]
-},
+  },
   {
     "chapter_number": 3,
     "chapter_name": "Metals and Non-metals",
@@ -4436,7 +4436,6 @@
           }
         ]
       },
-      [
   {
     "topic_name": "CHEMICAL PROPERTIES OF CARBON COMPOUNDS",
     "key_concepts": [],
@@ -5075,7 +5074,6 @@
     "activity_contexts": [],
     "subtopics": []
   }
-]
     ]
   },
   {
