@@ -21,6 +21,8 @@ import cv2
 import numpy as np
 import os
 import re
+import glob
+import time
 from difflib import SequenceMatcher
 import concurrent.futures
 import threading
@@ -263,10 +265,39 @@ class CombinedScienceQA:
     
     def _generate_text_answer(self, query, marks=None):
         """Generate text answer using RAG system."""
-        results = self._retrieve_context(query, marks=marks, n_results=5)
+        # Set default marks to 4 if not provided
+        if marks is None:
+            marks = "four"
+        
+        # For multi-part questions, retrieve more results to cover all topics
+        # Check if query contains "and" suggesting multiple topics
+        n_results = 10 if ' and ' in query.lower() else 5
+        
+        results = self._retrieve_context(query, marks=marks, n_results=n_results)
 
+        # Check if no relevant information found (out of syllabus)
         if not results or not results.get('documents') or not results['documents'][0]:
-            return "No relevant information found in the database."
+            return "This topic appears to be out of syllabus. No relevant information found in the curriculum database."
+
+        # Additional relevance check using semantic similarity
+        # Use the sentence-transformer model to compute embeddings
+        # and check cosine similarity between the query and retrieved documents.
+        # If best cosine similarity is below threshold, treat as not relevant.
+        try:
+            docs_list = results.get('documents', [[]])[0]
+            if docs_list:
+                # Encode query and documents
+                query_emb = self.image_model.encode(query, convert_to_tensor=True)
+                docs_emb = self.image_model.encode(docs_list, convert_to_tensor=True)
+                cos_scores = util.cos_sim(query_emb, docs_emb)
+                # cos_scores is tensor shape [1, N]
+                best_sim = float(torch.max(cos_scores).item())
+                min_similarity_threshold = 0.30  # Stricter threshold
+                if best_sim < min_similarity_threshold:
+                    return "This question does not appear to be relevant to the curriculum. Please ask questions related to the science syllabus."
+        except Exception:
+            # If embedding/similarity check fails, continue with existing behavior
+            pass
 
         # Build the context
         context_parts = []
@@ -282,22 +313,29 @@ class CombinedScienceQA:
 
         context = "\n\n".join(context_parts)
 
-        # Generate prompt depending on marks
-        if marks:
-            marks_info = f" ({marks} marks)"
-            marks_instruction = f"Write an answer suitable for a {marks}-mark question. Keep the answer length and depth appropriate for {marks} marks."
-        else:
-            marks_info = ""
-            marks_instruction = "Write a general concise answer suitable for revision."
+        # Calculate number of points: 2 * marks
+        marks_map = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5}
+        marks_value = marks_map.get(marks, 4)
+        num_points = 2 * marks_value
 
+        # Generate prompt with point-based structure
         prompt = f"""You are a science teacher helping students prepare for exams.
 
 Context from textbook:
 {context}
 
-Student's Question{marks_info}: {query}
+Student's Question ({marks} marks): {query}
 
-{marks_instruction}
+CRITICAL Instructions:
+- Provide a direct answer with NO introductory phrases like "Here's your answer" or "Let me explain"
+- Structure the answer as EXACTLY {num_points} clear, concise points
+- Number each point (1., 2., 3., etc.)
+- Each point should be factual and relevant
+- Keep the depth appropriate for a {marks}-mark question
+- Do NOT include any conversational elements
+- Start directly with point 1
+
+IMPORTANT: If the question asks about MULTIPLE topics (e.g., "stomach and liver", "photosynthesis and respiration"), you MUST cover ALL topics mentioned in the question. Divide the {num_points} points proportionally between all topics.
 
 Answer:"""
 
@@ -327,46 +365,93 @@ Answer:"""
         meaningful_words = [w for w in words if w not in stop_words and len(w) > 2]
         return meaningful_words
     
-    def _calculate_similarity(self, word1, word2):
-        """Calculate similarity between two words using SequenceMatcher."""
-        word1_clean = re.sub(r'[^a-zA-Z]', '', word1.lower())
-        word2_clean = re.sub(r'[^a-zA-Z]', '', word2.lower())
-        return SequenceMatcher(None, word1_clean, word2_clean).ratio()
+    def _normalize_word(self, word):
+        """Normalize a word by removing special characters and converting to lowercase."""
+        return re.sub(r'[^a-z0-9]', '', word.lower())
     
-    def _find_matching_words(self, query_words, detected_words, threshold=0.6):
-        """Find which detected words match query words using fuzzy matching."""
+    def _find_matching_words(self, query_words, detected_words):
+        """
+        Find which detected words match query words using simple exact word matching.
+        
+        Logic:
+        1. If an exact word from the query matches a word in OCR text, it's highlighted
+        2. Handles multi-word OCR text by splitting and checking each word
+        3. If NO matches found, returns empty list (which will show all words)
+        
+        Returns:
+            List of tuples: (detected_text, matched_query_word, confidence=1.0)
+        """
         matches = []
         
+        # Normalize all query words for comparison
+        normalized_query_words = {self._normalize_word(qw): qw for qw in query_words}
+        
         for detected in detected_words:
-            best_match = None
-            best_score = 0
+            # Check if the entire detected text matches any query word
+            detected_normalized = self._normalize_word(detected)
             
-            detected_clean = re.sub(r'[^a-zA-Z]', '', detected.lower())
+            # Direct exact match
+            if detected_normalized in normalized_query_words:
+                original_query_word = normalized_query_words[detected_normalized]
+                matches.append((detected, original_query_word, 1.0))
+                continue
             
-            for query_word in query_words:
-                score = self._calculate_similarity(detected, query_word)
-                
-                if query_word.lower() in detected_clean or detected_clean in query_word.lower():
-                    score = max(score, 0.8)
-                
-                detected_parts = detected.lower().split()
-                for part in detected_parts:
-                    part_clean = re.sub(r'[^a-zA-Z]', '', part)
-                    part_score = self._calculate_similarity(part_clean, query_word)
-                    if part_score > score:
-                        score = part_score
-                
-                if score > best_score:
-                    best_score = score
-                    best_match = query_word
+            # Check if any query word is contained in the detected text
+            # or vice versa (for partial matches like "oxygen" in "oxygenated")
+            match_found = False
+            for norm_qw, original_qw in normalized_query_words.items():
+                # Check if query word is substring of detected word (at least 4 chars)
+                if len(norm_qw) >= 4 and norm_qw in detected_normalized:
+                    matches.append((detected, original_qw, 1.0))
+                    match_found = True
+                    break
+                # Check if detected word is substring of query word (at least 4 chars)
+                elif len(detected_normalized) >= 4 and detected_normalized in norm_qw:
+                    matches.append((detected, original_qw, 1.0))
+                    match_found = True
+                    break
             
-            if best_score >= threshold:
-                matches.append((detected, best_match, best_score))
+            if match_found:
+                continue
+            
+            # For multi-word detected text, check each word separately
+            detected_words_list = detected.lower().split()
+            for detected_word in detected_words_list:
+                detected_word_normalized = self._normalize_word(detected_word)
+                
+                # Exact match with any query word
+                if detected_word_normalized in normalized_query_words:
+                    original_query_word = normalized_query_words[detected_word_normalized]
+                    matches.append((detected, original_query_word, 1.0))
+                    break
+                
+                # Substring match (at least 4 chars)
+                for norm_qw, original_qw in normalized_query_words.items():
+                    if len(norm_qw) >= 4 and norm_qw in detected_word_normalized:
+                        matches.append((detected, original_qw, 1.0))
+                        break
+                    elif len(detected_word_normalized) >= 4 and detected_word_normalized in norm_qw:
+                        matches.append((detected, original_qw, 1.0))
+                        break
         
         return matches
     
-    def _process_image_with_blanking(self, image_path, query_words, output_path, threshold=0.6):
-        """Process the image with OCR and blank out words that are NOT in query_words."""
+    def _process_image_with_blanking(self, image_path, query_words, output_path):
+        """
+        Process the image with OCR and intelligent word highlighting.
+        
+        Logic:
+        - If exact words from the query match OCR text → show ONLY those, blank the rest
+        - If NO words match → show ALL words detected (no blanking)
+        
+        Args:
+            image_path: Path to the input image
+            query_words: List of words extracted from the query
+            output_path: Path to save the processed image
+            
+        Returns:
+            Dictionary with detection results and match information
+        """
         if not os.path.exists(image_path):
             return {
                 'error': f"Image not found at {image_path}",
@@ -387,57 +472,92 @@ Answer:"""
             # Extract all detected words
             all_detected_words = [text for (bbox, text, prob) in result]
             
-            # Find matches using fuzzy matching
-            matches = self._find_matching_words(query_words, all_detected_words, threshold)
+            # Find matches using simple exact word matching
+            matches = self._find_matching_words(query_words, all_detected_words)
             
-            # Create a set of words to keep visible
-            words_to_keep_set = set([match[0] for match in matches])
-            
-            # If no matches found, keep all words visible
-            if len(matches) == 0:
+            # INTELLIGENT DECISION:
+            # If matches found → show only matched words (blank the rest)
+            # If NO matches → show all words (no blanking)
+            if len(matches) > 0:
+                # Show only matched words
+                words_to_keep_set = set([match[0] for match in matches])
+                show_all = False
+            else:
+                # No matches, show all words
                 words_to_keep_set = set(all_detected_words)
+                show_all = True
             
             for (bbox, text, prob) in result:
-                should_blank = text not in words_to_keep_set
                 box_points = np.array(bbox, dtype=np.int32)
                 
-                if should_blank:
-                    # Fill the box with solid color to hide the word
+                if text in words_to_keep_set:
+                    # Keep this word visible with green outline
+                    if show_all:
+                        # Show all mode - use blue outline
+                        cv2.polylines(image, [box_points], isClosed=True, 
+                                    color=(255, 165, 0), thickness=2)  # Orange for "show all"
+                    else:
+                        # Matched word - use green outline
+                        cv2.polylines(image, [box_points], isClosed=True, 
+                                    color=(0, 255, 0), thickness=3)  # Green for matched
+                else:
+                    # Blank out this word (white fill)
                     cv2.fillPoly(image, [box_points], color=(255, 255, 255))
                     cv2.polylines(image, [box_points], isClosed=True, 
-                                color=(200, 200, 200), thickness=2)
-                else:
-                    # Draw a green outline for words to keep
-                    cv2.polylines(image, [box_points], isClosed=True, 
-                                color=(0, 255, 0), thickness=2)
+                                color=(220, 220, 220), thickness=1)
             
             # Save the processed image
             cv2.imwrite(output_path, image)
         else:
-            # Just save the original image
+            # No OCR results, just save the original image
             cv2.imwrite(output_path, image)
         
         return {
             'all_detected_words': all_detected_words,
             'matches': matches,
-            'output_path': output_path
+            'output_path': output_path,
+            'show_all_mode': len(matches) == 0 and len(all_detected_words) > 0
         }
     
     # ==================== PARALLEL PROCESSING ====================
+    
+    def _cleanup_old_images(self, keep_latest=5):
+        """Clean up old processed images to prevent accumulation."""
+        try:
+            # Find all output images
+            output_images = glob.glob('output_*')
+            if len(output_images) > keep_latest:
+                # Sort by modification time
+                output_images.sort(key=os.path.getmtime)
+                # Delete older images, keep the latest ones
+                for img in output_images[:-keep_latest]:
+                    try:
+                        os.remove(img)
+                    except Exception:
+                        pass  # Ignore errors during cleanup
+        except Exception:
+            pass  # Ignore cleanup errors
     
     def process_question(self, query, marks=None):
         """
         Process a question using both RAG and image mapping systems in parallel.
         Returns both text answer and processed image information.
         """
+        # Clean up old images first
+        self._cleanup_old_images(keep_latest=5)
+        
         # Parse marks from query if present
         marks_match = re.search(r'\[(\w+)\s*mark', query, re.IGNORECASE)
-        if marks_match and marks is None:
+        if marks_match:
             marks = marks_match.group(1).lower()
             query = re.sub(r'\[.*?mark.*?\]', '', query, flags=re.IGNORECASE).strip()
             marks_map = {"1": "one", "2": "two", "3": "three", "4": "four", "5": "five"}
             if marks in marks_map:
                 marks = marks_map[marks]
+        
+        # If marks still None, default to "four" (will be handled in _generate_text_answer)
+        if marks is None:
+            marks = "four"
         
         # Store results from parallel tasks
         text_answer = None
@@ -459,16 +579,28 @@ Answer:"""
                 # Find most relevant image
                 mapped_image, score = self._find_most_relevant_image(query)
                 
+                # Check confidence threshold (20%)
+                if score < 0.20:
+                    image_result = {
+                        'low_confidence': True,
+                        'confidence_score': score,
+                        'message': 'No relevant diagram found. This topic might be out of syllabus or no matching images are available.'
+                    }
+                    return
+                
                 # Extract words from query
                 query_words = self._extract_words_from_query(query)
                 
-                # Build image paths
+                # Build image paths with timestamp to prevent caching
+                import time
+                timestamp = int(time.time() * 1000)  # milliseconds
                 image_path = os.path.join(self.images_folder, mapped_image)
-                output_path = f"output_{mapped_image}"
+                base_name, ext = os.path.splitext(mapped_image)
+                output_path = f"output_{base_name}_{timestamp}{ext}"
                 
-                # Process image with OCR
+                # Process image with OCR (using simple exact matching)
                 processing_result = self._process_image_with_blanking(
-                    image_path, query_words, output_path, threshold=0.6
+                    image_path, query_words, output_path
                 )
                 
                 image_result = {
@@ -479,6 +611,7 @@ Answer:"""
                     'output_path': processing_result.get('output_path', output_path),
                     'all_detected_words': processing_result.get('all_detected_words', []),
                     'matches': processing_result.get('matches', []),
+                    'show_all_mode': processing_result.get('show_all_mode', False),
                     'error': processing_result.get('error')
                 }
             except Exception as e:
@@ -510,13 +643,17 @@ Answer:"""
         print("="*70)
         print("\nHow it works:")
         print("  1. Enter your science question")
-        print("  2. System generates text answer (using RAG)")
-        print("  3. System finds and processes relevant diagram (in parallel)")
-        print("  4. Both results are displayed together")
+        print("  2. System generates structured answer in points (2×marks+2)")
+        print("  3. System finds and displays relevant diagram (in parallel)")
+        print("  4. Both results are shown together")
+        print("\nAnswer Format:")
+        print("  - Answers are structured as numbered points")
+        print("  - Number of points = 2 × marks")
+        print("  - Default: 4 marks (8 points) if not specified")
         print("\nCommands:")
         print("  - Type your question directly")
-        print("  - Add '[X marks]' to specify mark value")
-        print("  - Example: 'What is ecosystem? [2 marks]'")
+        print("  - Add '[X marks]' for specific mark value (1-5)")
+        print("  - Example: 'What is ecosystem? [2 marks]' → 4 points")
         print("  - Type 'quit' or 'exit' to stop")
         print("="*70 + "\n")
         
@@ -554,26 +691,30 @@ Answer:"""
                 elif result['image_result']:
                     img_res = result['image_result']
                     
-                    if img_res.get('error'):
+                    if img_res.get('low_confidence'):
+                        print(f"⚠️  Low Confidence Match (Score: {img_res['confidence_score']:.2f})")
+                        print(f"   {img_res['message']}")
+                    elif img_res.get('error'):
                         print(f"❌ {img_res['error']}")
                     else:
                         print(f"✅ Best Match: {img_res['mapped_image']}")
                         print(f"   Confidence Score: {img_res['confidence_score']:.2f}")
-                        print(f"\n📝 Words extracted from query: {img_res['query_words']}")
-                        print(f"\n📊 Summary:")
-                        print(f"   Total words detected in image: {len(img_res['all_detected_words'])}")
-                        print(f"   Words from query that matched: {len(img_res['matches'])}")
+                        print(f"\n📝 Words extracted from query: {', '.join(img_res['query_words'])}")
+                        print(f"\n📊 Detection Summary:")
+                        print(f"   • Total words detected in image: {len(img_res['all_detected_words'])}")
+                        print(f"   • Exact matches found: {len(img_res['matches'])}")
                         
                         if img_res['matches']:
-                            print(f"\n🎯 Matched labels:")
-                            for detected, query, score in sorted(img_res['matches'], 
-                                                                key=lambda x: x[2], reverse=True):
-                                print(f"   '{detected}' ← matches '{query}' (similarity: {score:.2f})")
-                            matched_labels = [match[0] for match in img_res['matches']]
-                            print(f"   → Kept these visible, blanked the rest")
+                            print(f"\n🎯 Exact Word Matches Found:")
+                            matched_labels = []
+                            for detected, query, score in img_res['matches']:
+                                print(f"   ✓ '{detected}' ← matched with '{query}'")
+                                matched_labels.append(detected)
+                            print(f"\n   📌 Result: Showing ONLY matched words (green outline), rest blanked out")
                         else:
-                            print(f"   No matches found")
-                            print(f"   → Showing all labels: {img_res['all_detected_words']}")
+                            print(f"\n   ℹ️  No exact matches found with query words")
+                            print(f"   📌 Result: Showing ALL detected words (orange outline)")
+                            print(f"   📝 All words: {', '.join(img_res['all_detected_words'])}")
                         
                         print(f"\n✨ Processed image saved to: {img_res['output_path']}")
                 else:
