@@ -1,99 +1,83 @@
-# Science RAG System
+# Educational Chatbot
 
-A Retrieval-Augmented Generation (RAG) system designed for multi-chapter science textbooks with nested subtopics. It uses a local LLM (via Ollama) and a vector database (ChromaDB) to provide context-aware answers, with special support for filtering questions by assigned marks.
-# Installation
+Educational Chatbot is a local-first science question-answering system that combines:
+
+1. Retrieval-Augmented Generation (RAG) over textbook data using ChromaDB.
+2. Optional web interface for interactive question answering.
+3. Diagram/image mapping based on semantic relevance and OCR text matching.
+
+## Documentation
+
+Read the docs in this order:
+
+1. [Web Interface Guide](docs/WEB_INTERFACE_README.md)
+2. [Image Matching Logic](docs/IMAGE_MATCHING_LOGIC.md)
+
+## Repository Layout
+
+```text
+Educational_Chatbot/
+|-- app.py
+|-- combined_qa_system.py
+|-- final.py
+|-- embeddings.pt
+|-- science_db/
+|-- text/
+|   |-- rag_system.py
+|   |-- syllabus_map_qna.json
+|   |-- syllabus_map_key_concepts.json
+|-- docs/
+|   |-- WEB_INTERFACE_README.md
+|   `-- IMAGE_MATCHING_LOGIC.md
+`-- README.md
+```
+
+## Core Capabilities
+
+1. Semantic retrieval from chapter/topic/subtopic science content.
+2. Mark-aware responses when queries include values like `[2 marks]`.
+3. Persistent vector database in `science_db/` for faster startup after indexing.
+4. Diagram matching and OCR-driven label highlighting.
+
+## Requirements
+
+1. Python 3.8 or newer.
+2. Ollama installed and running.
+3. Ollama model pulled locally (default: `llama3.2`).
+
+## Setup
+
+```bash
 ollama pull llama3.2
 pip install ollama chromadb sentence-transformers
-python rag_system.py chemistry_data.json
+```
 
+For web interface usage, also install Flask (or project-specific web dependencies).
 
-## Features
+## Run
 
-* ✅ **Vector-based Retrieval**: Fast semantic search using `sentence-transformers`.
-* ✅ **Context-aware Answers**: Uses relevant textbook content pulled from a vector store.
-* ✅ **Mark-specific Filtering**: Filter questions by marks (e.g., "1 marks", "3 marks").
-* ✅ **Interactive CLI**: Easy-to-use command-line interface.
-* ✅ **Local First**: Runs entirely locally with Ollama.
-* ✅ **Metadata Tracking**: Understands chapter, topic, and subtopic context.
-* ✅ **Flexible Queries**: Ask questions in natural language.
+### CLI RAG mode
 
----
+```bash
+python text/rag_system.py text/syllabus_map_qna.json
+```
 
-## How It Works
+### Web app mode
 
-1.  **Data Loading**: Reads and parses your structured JSON textbook data (key concepts, questions, answers).
-2.  **Embedding Creation**: Converts all text chunks (concepts, Q&As) into vector embeddings using `all-MiniLM-L6-v2`.
-3.  **Vector Storage**: Stores these embeddings and their associated metadata (chapter, topic, marks) in a ChromaDB collection.
-4.  **Query Processing**:
-    * The user asks a question (e.g., "What is oxidation [3 marks]").
-    * The system embeds the query and performs a similarity search in ChromaDB.
-    * It filters results based on any specified "marks" metadata.
-5.  **Answer Generation**: The retrieved context (the most relevant textbook snippets) is passed to an Ollama LLM (e.g., `llama3.2`) along with the original question to synthesize a final answer.
+```bash
+python app.py
+```
 
----
+Then open `http://localhost:5000`.
 
-## Prerequisites
+## Data Notes
 
-1.  **Python 3.8+**
-    * Ensure Python is installed on your system.
+1. Textbook JSON data is expected under `text/`.
+2. Embeddings and image assets are loaded from local files (`embeddings.pt`, image folders).
+3. ChromaDB persistence path defaults to `./science_db`.
 
-2.  **Ollama**
-    * **Install Ollama**: Visit [https://ollama.ai/download](https://ollama.ai/download) and install it for your OS.
-    * **Pull a Model**: You need at least one model. `llama3.2` is a good default.
-        ```bash
-        ollama pull llama3.2
-        ```
-    * **Ensure Ollama is Running**: The Ollama application or `ollama serve` command must be running in the background.
+## Maintenance
 
----
-
-## Installation
-
-1.  **Install Python Dependencies**
-    ```bash
-    pip install ollama chromadb sentence-transformers
-    ```
-
-2.  **Save Your Dataset**
-    * Ensure your textbook data is formatted as JSON (see [Data Format](#data-format) below) and save it as a file (e.g., `chemistry_data.json`).
-
----
-
-## Data Format
-
-Your JSON data must follow this nested structure:
-
-```json
-[
-  {
-    "chapter_number": 1,
-    "chapter_name": "Chemical Reactions and Equations",
-    "topics": [
-      {
-        "topic_name": "Types of Chemical Reactions",
-        "key_concepts": [
-          "A combination reaction is a reaction in which two or more reactants combine to form a single product.",
-          "Example: CaO(s) + H2O(l) -> Ca(OH)2(aq)"
-        ],
-        "questions": [
-          {
-            "one_mark_questions": [
-              {
-                "question": "What is a combination reaction?",
-                "answer": "A reaction in which two or more reactants combine to form a single product."
-              }
-            ],
-            "two_mark_questions": [
-              {
-                "question": "Why is respiration considered an exothermic reaction?",
-                "answer": "Respiration is considered an exothermic reaction because energy is released during this process..."
-              }
-            ],
-            "three_mark_questions": [],
-            "five_mark_questions": []
-          }
-        ]
-      }
-    ]
-  }
-]
+1. Keep high-level project usage in this `README.md`.
+2. Keep implementation details in `docs/`.
+3. Avoid duplicating setup instructions across multiple files.
